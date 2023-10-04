@@ -1,6 +1,6 @@
 # CatVis - A Survey of Visualisation Techniques for Analysing Categorical Data
 
-You're nearly there! Please go to [https://cat-vis.github.io/src/]
+You're nearly there! Please go to https://cat-vis.github.io/src/
 
 ## Contact
 
