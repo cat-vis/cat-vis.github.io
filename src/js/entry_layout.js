@@ -319,7 +319,7 @@ const entryLayout = (function () {
             }
             $("<span>", {
                 class: "label",
-                text: "Abstract: "
+                text: "Description: "
             }).prependTo(abstractDiv);
             abstractDiv.click(function () {
                 var value = $(this).attr('value');

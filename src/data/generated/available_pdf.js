@@ -1,1 +1,1 @@
-const availablePdf = [];
+const availablePdf = ["kolatch2001cattrees","tennekes2013exploration","wickham2011product"];
