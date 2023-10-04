@@ -2,11 +2,6 @@
 
 You're nearly there! Please go to https://cat-vis.github.io/src/
 
-
-# CatVis - A Survey of Visualisation Techniques for Analysing Categorical Data
-
-CatVis is a structured collection of visualisation techniques for categorical data. 
-
 ## Other Literature Collections Using SurVis
 
 * Dynamic Graph Visualization - http://dynamicgraphs.fbeck.com
