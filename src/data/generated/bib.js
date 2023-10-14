@@ -18,7 +18,7 @@
         "author": "Alsallakh, Bilal and Gr{\\\"o}ller, Meister Eduard and Miksch, Silvia and Suntinger, Martin",
         "booktitle": "EuroVA@ EuroVis",
         "doi": "10.2312/PE/EuroVAST/EuroVA11/053-056",
-        "keywords": "contribution:technique, family:other, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high",
         "pages": "53-56",
         "publisher": "Eurographics",
         "series": "EuroVis",
@@ -32,7 +32,7 @@
         "author": "Alsallakh, Bilal and Aigner, Wolfgang and Miksch, Silvia and Gr{\\\"o}ller, Meister Eduard",
         "doi": "10.1109/TVCG.2012.254",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "contribution:technique, family:other, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high",
         "number": "12",
         "pages": "2849--2858",
         "publisher": "IEEE",
@@ -122,9 +122,21 @@
         "type": "inproceedings",
         "year": "2011"
     },
+    "blasius1998visualization": {
+        "abstract": "A unique and timely monograph, Visualization of Categorical Data contains a useful balance of theoretical and practical material on this important new area. Top researchers in the field present the books four main topics: visualization, correspondence analysis, biplots and multidimensional scaling, and contingency table models. This volume discusses how surveys, which are employed in many different research areas, generate categorical data. It will be of great interest to anyone involved in collecting or analyzing categorical data. Topics include Correspondence Analysis, Homogeneity Analysis, Loglinear and Association Models, Latent Class Analysis, Multidimensional Scaling, Cluster Analysis, Ideal Point Discriminant Analysis, CHAID, Formal Concept Analysis and Graphical Models.",
+        "author": "Blasius, J. and Greenacre, Michael",
+        "isbn": "9780080543628",
+        "keywords": "contribution:textbook, data_type:homogeneous",
+        "publisher": "Elsevier Science",
+        "series": "Book",
+        "title": "Visualization of Categorical Data",
+        "type": "book",
+        "url": "https://www.google.co.nz/books/edition/Visualization_of_Categorical_Data/YEjKNYBvUfsC?hl",
+        "year": "1998"
+    },
     "borgo2013glyph": {
         "abstract": "Survey of glyph-based visualisation techniques. ABSTRACT: This state of the art report focuses on glyph-based visualization, a common form of visual design where a data set is depicted by a collection of visual objects referred to as glyphs. Its major strength is that patterns of multivariate data involving more than two attribute dimensions can often be more readily perceived in the context of a spatial relationship, whereas many techniques for spatial data such as direct volume rendering find difficult to depict with multivariate or multi-field data, and many techniques for non-spatial data such as parallel coordinates are less able to convey spatial relationships encoded in the data. This report fills several major gaps in the literature, drawing the link between the fundamental concepts in semiotics and the broad spectrum of glyph-based visualization, reviewing existing design guidelines and implementation techniques, and surveying the use of glyph-based visualization in many applications.",
-        "author": "Borgo, Rita and Kehrer, Johannes and Chung, David H. S. and Maguire, Eamonn and Laramee, Robert S. and Hauser, Helwig and Ward, Matthew and Chen, Min",
+        "author": "Borgo, Rita and Kehrer, Johannes and Chung, David H. S. and Maguire, Eamonn and Laramee, Robert S. and Hauser, Helwig and Ward, Matthew O and Chen, Min",
         "booktitle": "Eurographics 2013 - State of the Art Reports",
         "doi": "10.2312/conf/EG2013/stars/039-063",
         "editor": "M. Sbert and L. Szirmay-Kalos",
@@ -132,11 +144,23 @@
         "keywords": "contribution:survey, family:glyph, data_type:heterogeneous, cardinality:low, dimensionality:multivariate",
         "pages": "39-63",
         "publisher": "Eurographics",
-        "series": "Eurographics",
+        "series": "CGF",
         "title": "{Glyph-based Visualization: Foundations, Design Guidelines, Techniques and Applications}",
         "type": "inproceedings",
         "url": "http://diglib.eg.org/bitstream/handle/10.2312/conf.EG2013.stars.039-063/039-063.pdf?sequence",
         "year": "2013"
+    },
+    "brodbeck2019highd": {
+        "abstract": "High-D 'Categories' view - linked bar charts for categorical data (can select/highlight and filter). Can also see corresponding records in the 'Table' view. High-D was developed by Macrofocus and was formerly known as InfoScope.",
+        "author": "Brodbeck, Dominique and Girardin, Luc",
+        "howpublished": "\"\\url{https://www.high-d.com/}\",",
+        "keywords": "contribution:technique, family:bar, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate",
+        "note": "[Online; accessed 13-October-2023]",
+        "series": "Other",
+        "title": "High-D",
+        "type": "misc",
+        "url": "https://www.high-d.com/",
+        "year": "2019"
     },
     "broeksema2013visual": {
         "abstract": "We present a set of interactive techniques for the visual analysis of multi-dimensional categorical data. Our approach is based on multiple correspondence analysis (MCA), which allows one to analyse relationships, patterns, trends and outliers among dependent categorical variables. We use MCA as a dimensionality reduction technique to project both observations and their attributes in the same 2D space. We use a treeview to show attributes and their domains, a histogram of their representativity in the data set and as a compact overview of attribute-related facts. A second view shows both attributes and observations. We use a Voronoi diagram whose cells can be interactively merged to discover salient attributes, cluster values and bin categories. Bar chart legends help assigning meaning to the 2D view axes and 2D point clusters. We illustrate our techniques with real-world application data.",
@@ -155,7 +179,24 @@
         "volume": "32",
         "year": "2013"
     },
+    "chang2005categorical": {
+        "abstract": "Clustering is an important data mining problem. However, most earlier work on clustering focused on numeric attributes which have a natural ordering to their attribute values. Recently, clustering data with categorical attributes, whose attribute values do not have a natural ordering, has received more attention. A common issue in cluster analysis is that there is no single correct answer to the number of clusters, since cluster analysis involves human subjective judgement. Interactive visualization is one of the methods where users can decide a proper clustering parameters. In this paper, a new clustering approach called CDCS (Categorical Data Clustering with Subjective factors) is introduced, where a visualization tool for clustered categorical data is developed such that the result of adjusting parameters is instantly reflected. The experiment shows that CDCS generates high quality clusters compared to other typical algorithms.",
+        "author": "Chang, Chia-Hui and Ding, Zhi-Kai",
+        "doi": "https://doi.org/10.1016/j.datak.2004.09.001",
+        "journal": "Data \\& Knowledge Engineering",
+        "keywords": "contribution:technique, family:projection, data_type:homogeneous, dimensionality:multivariate",
+        "number": "3",
+        "pages": "243--262",
+        "publisher": "Elsevier",
+        "series": "Other",
+        "title": "Categorical data visualization and clustering using subjective factors",
+        "type": "article",
+        "url": "https://staff.csie.ncu.edu.tw/chia/pub/dawak135.pdf",
+        "volume": "53",
+        "year": "2005"
+    },
     "chernoff1973faces": {
+        "abstract": "Chernoff faces. ABSTRACT: A novel method of representing multivariate data is presented. Each point in k-dimensional space, k\u226418, is represented by a cartoon of a face whose features, such as length of nose and curvature of mouth, correspond to components of the point. Thus every multivariate observation is visualized as a computer-drawn face. This presentation makes it easy for the human mind to grasp many of the essential regularities and irregularities present in the data. Other graphical representations are described briefly.",
         "author": "Chernoff, Herman",
         "doi": "https://doi.org/10.1080/01621459.1973.10482434",
         "journal": "Journal of the American Statistical Association",
@@ -244,7 +285,7 @@
     },
     "cuadras2006ca": {
         "abstract": "Compares CA, Hellinger distance and log ratio approaches, and concludes that CA is the best. ABSTRACT: We first compare correspondence analysis, which uses chi-square distance, and an alternative approach using Hellinger distance, for representing categorical data in a contingency table. We propose a coefficient which globally measures the similarity between these two approaches. This coefficient can be decomposed into several components, one component for each principal dimension, indicating the contribution of the dimensions to the difference between the two representations. We also make comparisons with the logratio approach based on compositional data. These three methods of representation can produce quite similar results. Two illustrative examples are given.",
-        "author": "Cuadras, Carles M and Cuadras, Daniel and Greenacre, Michael J",
+        "author": "Cuadras, Carles M and Cuadras, Daniel and Greenacre, Michael",
         "journal": "Communications in Statistics-Simulation and Computation",
         "keywords": "contribution:evaluation, family:projection, data_type:homogeneous",
         "number": "2",
@@ -255,6 +296,38 @@
         "type": "article",
         "volume": "35",
         "year": "2006"
+    },
+    "dang2010stacking": {
+        "abstract": "Categorical Stacked Parallel Coordinate Plots (3D display). ABSTRACT: An ongoing challenge for information visualization is how to deal with over-plotting forced by ties or the relatively limitedvisual field of display devices. A popular solution is to represent local data density with area (bubble plots, treemaps), color(heatmaps), or aggregation (histograms, kernel densities, pixel displays). All of these methods have at least one of three deficiencies:1) magnitude judgments are biased because area and color have convex downward perceptual functions, 2) area, hue, and brightnesshave relatively restricted ranges of perceptual intensity compared to length representations, and/or 3) it is difficult to brush or link toindividual cases when viewing aggregations. In this paper, we introduce a new technique for visualizing and interacting with datasetsthat preserves density information by stacking overlapping cases. The overlapping data can be points or lines or other geometricelements, depending on the type of plot. We show real-dataset applications of this stacking paradigm and compare them to othertechniques that deal with over-plotting in high-dimensional displays.",
+        "author": "Dang, Tuan Nhon and Wilkinson, Leland and Anand, Anushka",
+        "doi": "10.1109/TVCG.2010.197",
+        "journal": "IEEE Transactions on Visualization and Computer Graphics",
+        "keywords": "contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:low",
+        "number": "6",
+        "pages": "1044--1052",
+        "publisher": "IEEE",
+        "series": "TVCG",
+        "title": "Stacking graphic elements to avoid over-plotting",
+        "type": "article",
+        "volume": "16",
+        "year": "2010"
+    },
+    "dennig2021parsetnostics": {
+        "abstract": "Evaluation metrics for Parallel Sets. ABSTRACT: While there are many visualization techniques for exploring numeric data, only a few work with categorical data. One prominent example is Parallel Sets, showing data frequencies instead of data points - analogous to parallel coordinates for numerical data. As nominal data does not have an intrinsic order, the design of Parallel Sets is sensitive to visual clutter due to overlaps, crossings, and subdivision of ribbons hindering readability and pattern detection. In this paper, we propose a set of quality metrics, called ParSetgnostics (Parallel Sets diagnostics), which aim to improve Parallel Sets by reducing clutter. These quality metrics quantify important properties of Parallel Sets such as overlap, orthogonality, ribbon width variance, and mutual information to optimize the category and dimension ordering. By conducting a systematic correlation analysis between the individual metrics, we ensure their distinctiveness. Further, we evaluate the clutter reduction effect of ParSetgnostics by reconstructing six datasets from previous publications using Parallel Sets measuring and comparing their respective properties. Our results show that ParSetgostics facilitates multi-dimensional analysis of categorical data by automatically providing optimized Parallel Set designs with a clutter reduction of up to 81% compared to the originally proposed Parallel Sets visualizations.",
+        "author": "Dennig, Frederik L and Fischer, Maximilian T and Blumenschein, Michael and Fuchs, Johannes and Keim, Daniel A and Dimara, Evanthia",
+        "booktitle": "CGF",
+        "doi": "https://doi.org/10.1111/cgf.14314",
+        "keywords": "contribution:evaluation, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high",
+        "number": "3",
+        "organization": "Wiley Online Library",
+        "pages": "375--386",
+        "publisher": "Wiley Online Library",
+        "series": "CGF",
+        "title": "Parsetgnostics: Quality metrics for parallel sets",
+        "type": "inproceedings",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14314",
+        "volume": "40",
+        "year": "2021"
     },
     "emerson2013generalized": {
         "abstract": "Generalized Pairs Plot (cf. GPLOM for heterogeneous data; Heatmap Matrix and Mosaic Matrix for purely categorical data). ABSTRACT: This article develops a generalization of the scatterplot matrix based on the recognition that most datasets include both categorical and quantitative information. Traditional grids of scatterplots often obscure important features of the data when one or more variables are categorical but coded as numerical. The generalized pairs plot offers a range of displays of paired combinations of categorical and quantitative variables. A mosaic plot, fluctuation diagram, or faceted bar chart may be used to display two categorical variables. A side-by-side boxplot, stripplot, faceted histogram, or density plot helps visualize a categorical and a quantitative variable. A traditional scatterplot is suitable for displaying a pair of numerical variables, but options also support density contours or annotating summary statistics such as the correlation and number of missing values, for example. By combining these, the generalized pairs plot may help to reveal structure in multivariate data that otherwise might go unnoticed in the process of exploratory data analysis. Two different R packages provide implementations of the generalized pairs plot, gpairs and GGally. Supplementary materials for this article are available online on the journal web site.",
@@ -330,6 +403,18 @@
         "volume": "8",
         "year": "1999"
     },
+    "friendly2015discrete": {
+        "abstract": "Discrete Data Analysis with R: Visualization and Modeling Techniques for Categorical and Count Data presents an applied treatment of modern methods for the analysis of categorical data, both discrete response data and frequency data. It explains how to use graphical methods for exploring data, spotting unusual features, visualizing fitted models, and presenting results. The book is designed for advanced undergraduate and graduate students in the social and health sciences, epidemiology, economics, business, statistics, and biostatistics as well as researchers, methodologists, and consultants who can use the methods with their own data and analyses. Along with describing the necessary statistical theory, the authors illustrate the practical application of the techniques to a large number of substantive problems, including how to organize data, conduct an analysis, produce informative graphs, and evaluate what the graphs reveal about the data. The first part of the book contains introductory material on graphical methods for discrete data, basic R skills, and methods for fitting and visualizing one-way discrete distributions. The second part focuses on simple, traditional nonparametric tests and exploratory methods for visualizing patterns of association in two-way and larger frequency tables. The final part of the text discusses model-based methods for the analysis of discrete data.",
+        "author": "Friendly, Michael and Meyer, David",
+        "keywords": "contribution:textbook, data_type:homogeneous",
+        "publisher": "CRC Press",
+        "series": "Book",
+        "title": "Discrete data analysis with R: visualization and modeling techniques for categorical and count data",
+        "type": "book",
+        "url": "http://ddar.datavis.ca/",
+        "volume": "120",
+        "year": "2015"
+    },
     "furmanova2020taggle": {
         "abstract": "Taggle (cf LineUp). ABSTRACT: Most tabular data visualization techniques focus on overviews, yet many practical analysis tasks are concerned with investigating individual items of interest. At the same time, relating an item to the rest of a potentially large table is important. In this work, we present Taggle, a tabular visualization technique for exploring and presenting large and complex tables. Taggle takes an item-centric, spreadsheet-like approach, visualizing each row in the source data individually using visual encodings for the cells. At the same time, Taggle introduces data-driven aggregation of data subsets. The aggregation strategy is complemented by interaction methods tailored to answer specific analysis questions, such as sorting based on multiple columns and rich data selection and filtering capabilities. We demonstrate Taggle by a case study conducted by a domain expert on complex genomics data analysis for the purpose of drug discovery.",
         "author": "Furmanova, Katarina and Gratzl, Samuel and Stitz, Holger and Zichner, Thomas and Jaresova, Miroslava and Lex, Alexander and Streit, Marc",
@@ -358,13 +443,14 @@
         "year": "2017"
     },
     "hartigan1981mosaic": {
+        "abstract": "Mosaic plot, aka Marimekko charts, Mekko charts (cf. Eikosograms). See also Mosaic plots with residual-based shading to visualize log-linear models (Friendly, 1994; Zeileis et al., 2007). Note that spineplots (Hummel, 1996) are the one-dimensional version of a mosaic plot. ABSTRACT: A contingency table specifies the joint distribution of a number of discrete variables. The numbers in a contingency table are represented by rectangles of areas proportional to the numbers, with shape and position chosen to expose deviations from independence models. The collection of rectangles for the contingency table is called a mosaic. Mosaics of various types are given for contingency tables of two and more variables.",
         "author": "Hartigan, John A and Kleiner, Beat",
         "booktitle": "Computer science and statistics: Proceedings of the 13th symposium on the interface",
         "doi": "https://doi.org/10.1007/978-1-4613-9464-8_37",
         "keywords": "contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate",
         "organization": "Springer",
         "pages": "268--273",
-        "publisher": "Springer abstract{Mosaic plot, aka Marimekko charts, Mekko charts (cf. Eikosograms). See also Mosaic plots with residual-based shading to visualize log-linear models (Friendly, 1994; Zeileis et al., 2007). Note that spineplots (Hummel, 1996) are the one-dimensional version of a mosaic plot. ABSTRACT: A contingency table specifies the joint distribution of a number of discrete variables. The numbers in a contingency table are represented by rectangles of areas proportional to the numbers, with shape and position chosen to expose deviations from independence models. The collection of rectangles for the contingency table is called a mosaic. Mosaics of various types are given for contingency tables of two and more variables.",
+        "publisher": "Springer",
         "series": "Other",
         "title": "Mosaics for contingency tables",
         "type": "inproceedings",
@@ -445,12 +531,28 @@
         "volume": "15",
         "year": "2006"
     },
+    "hsu2006som": {
+        "abstract": "Self-organizing maps (SOM) for categorical data. ABSTRACT: The self-organizing map (SOM) is an unsupervised neural network which projects high-dimensional data onto a low-dimensional grid and visually reveals the topological order of the original data. Self-organizing maps have been successfully applied to many fields, including engineering and business domains. However, the conventional SOM training algorithm handles only numeric data. Categorical data are usually converted to a set of binary data before training of an SOM takes place. If a simple transformation scheme is adopted, the similarity information embedded between categorical values may be lost. Consequently, the trained SOM is unable to reflect the correct topological order. This paper proposes a generalized self-organizing map model that offers an intuitive method of specifying the similarity between categorical values via distance hierarchies and, hence, enables the direct process of categorical values during training. In fact, distance hierarchy unifies the distance computation of both numeric and categorical values. The unification is done by mapping the values to distance hierarchies and then measuring the distance in the hierarchies. Experiments on synthetic and real datasets were conducted, and the results demonstrated the effectiveness of the generalized SOM model.",
+        "author": "Hsu, Chung-Chian",
+        "doi": "10.1109/TNN.2005.863415",
+        "journal": "IEEE transactions on Neural Networks",
+        "keywords": "contribution:technique, family:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high",
+        "number": "2",
+        "pages": "294--304",
+        "publisher": "IEEE",
+        "series": "Other",
+        "title": "Generalizing self-organizing map for categorical data",
+        "type": "article",
+        "url": "https://www.comp.nus.edu.sg/~rudys/arnie/tnn-som-categoricaldata.pdf",
+        "volume": "17",
+        "year": "2006"
+    },
     "huang2009treemapbar": {
         "abstract": "TreeMapBar. ABSTRACT: Bar chart is a very common and simple graph that is mainly used to visualize simple x, y plots of data for numerical comparisons by partitioning the categorical data values into bars and typically limited to operate on highly aggregated dataset. In todaypsilas growing complexity of business data with multi dimensional attributes using bar chart itself is not sufficient to deal with the representation of such business dataset and it also not utilizes the screen space efficiently.Nevertheless, bar chart is still useful because of its shape create strong visual attention to users at first glance than other visualization techniques. In this article, we present a treemap bar chart + tablelens interaction technique that combines the treemap and bar chart visualizations with a tablelens based zooming technique that allows users to view the detail of a particular bar when the density of bars increases. In our approach, the capability of the original bar chart and treemaps for representing complex business data is enhanced and the utilization of display space is also optimized.",
         "author": "Huang, Mao Lin and Huang, Tze-Haw and Zhang, Jiawan",
         "booktitle": "2009 13th International Conference Information Visualisation",
         "doi": "10.1109/IV.2009.22",
-        "keywords": "contribution:technique, family:bar/tree, data_type:homogeneous, dimensionality:bivariate, cardinality:high",
+        "keywords": "contribution:technique, family:bar, family:tree, data_type:homogeneous, dimensionality:bivariate, cardinality:high",
         "organization": "IEEE",
         "pages": "98--103",
         "series": "IV",
@@ -464,7 +566,7 @@
         "author": "Humayoun, Shah Rukh and Bhambri, Kritika and AlTarawneh, Ragaad",
         "booktitle": "Proceedings of the 2018 International Conference on Advanced Visual Interfaces",
         "doi": "https://doi.org/10.1145/3206505.3206570",
-        "keywords": "contribution:technique, family:other, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate",
         "pages": "1--3",
         "series": "Other",
         "title": "Bid-chord: an extended chord diagram for showing relations between bi-categorical dimensional data",
@@ -517,6 +619,17 @@
         "volume": "6",
         "year": "2006"
     },
+    "jin2023rit": {
+        "abstract": "Radial Icicle Tree (RIT, cf. sunburst chart and icicle plot). ABSTRACT: Icicles and sunbursts are two commonly-used visual representations of trees. While icicle trees can map data values faithfully to rectangles of different sizes, often some rectangles are too narrow to be noticed easily. When an icicle tree is transformed into a sunburst tree, the width of each rectangle becomes the length of an annular sector that is usually longer than the original width. While sunburst trees alleviate the problem of narrow rectangles in icicle trees, it no longer maintains the consistency of size encoding. At different tree depths, nodes of the same data values are displayed in annular sections of different sizes in a sunburst tree, though they are represented by rectangles of the same size in an icicle tree. Furthermore, two nodes from different subtrees could sometimes appear as a single node in both icicle trees and sunburst trees. In this paper, we propose a new visual representation, referred to as radial icicle tree (RIT), which transforms the rectangular bounding box of an icicle tree into a circle, circular sector, or annular sector while introducing gaps between nodes and maintaining area constancy for nodes of the same size. We applied the new visual design to several datasets. Both the analytical design process and user-centered evaluation have confirmed that this new design has improved the design of icicles and sunburst trees without introducing any relative demerit.",
+        "author": "Jin, Yuanzhe and de Jong, Tim JA and Tennekes, Martijn and Chen, Min",
+        "journal": "arXiv preprint arXiv:2307.10481",
+        "keywords": "contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low",
+        "series": "Other",
+        "title": "Radial Icicle Tree (RIT): Node Separation and Area Constancy",
+        "type": "article",
+        "url": "https://arxiv.org/pdf/2307.10481.pdf",
+        "year": "2023"
+    },
     "johansson2008quant": {
         "abstract": "Data sets containing a combination of categorical and continuous variables (mixed data sets) are difficult to analyse since no generalized similarity measure exists for categorical variables. Quantification of categorical variables makes it possible to represent this type of data using techniques designed for numerical data. This paper presents a quantification process of categorical variables in mixed data sets that incorporates information on relationships among the continuous variables into the process, as well as utilizing the domain knowledge of a user. An interactive visualization environment using parallel coordinates as a visual interface is provided, where the user is able to control the quantification process and analyse the result. The efficiency of the approach is demonstrated using two mixed data sets.",
         "author": "Johansson Fernstad, Sara and Jern, Mikael and Johansson, Jimmy",
@@ -559,7 +672,7 @@
         "year": "2011"
     },
     "karduni2020dubois": {
-        "abstract": "",
+        "abstract": "Du Bois wrapped bar chart. ABSTRACT: We propose a visualization technique, Du Bois wrapped bar chart, inspired by work of W.E.B Du Bois. Du Bois wrapped bar charts enable better large-to-small bar comparison by wrapping large bars over a certain threshold. We first present two crowdsourcing experiments comparing wrapped and standard bar charts to evaluate (1) the benefit of wrapped bars in helping participants identify and compare values; (2) the characteristics of data most suitable for wrapped bars. In the first study (n ",
         "author": "Karduni, Alireza and Wesslen, Ryan and Cho, Isaac and Dou, Wenwen",
         "booktitle": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
         "doi": "10.1145/3313831.3376365",
@@ -596,6 +709,18 @@
         "volume": "12",
         "year": "2006"
     },
+    "kosara2007nary": {
+        "abstract": "N-ary tree with combined frequencies. The lower part is an n-ary tree whose branches represent orthogonal combinations of categories; the upper part encodes the frequency of the combinations. Could be greatly enhanced with interaction: sorting branches, adding/removing/reordering variables, expanding/collapsing branches, removing a response variable and then encoding its frequencies as a grouped bar chart at the top, highlighting/querying categories of interest, including with user-defined markings (colours, shapes, textures, etc. Could rotate 90 degrees to utilise screen space more effectively.). ,",
+        "author": "Kosara, Robert",
+        "howpublished": "\"\\url{https://eagereyes.org/blog/2007/autism-diagnosis-accuracy}\",",
+        "keywords": "contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:low",
+        "note": "[Online; accessed 13-October-2023]",
+        "series": "Other",
+        "title": "{Autism Diagnosis Accuracy - Visualization Redesign}",
+        "type": "misc",
+        "url": "https://eagereyes.org/blog/2007/autism-diagnosis-accuracy",
+        "year": "2007"
+    },
     "kruskal1983icicle": {
         "abstract": "Icicle plot, the cartesian equivalent of a sunburst diagram. ABSTRACT: An icicle plot is a method for presenting a hierarchical clustering. Compared with other methods of presenta- tion, it is far easier in an icicle plot to read off which objects belong to which clusters, and which objects join or drop out from a cluster as we move up and down the levels of the hierarchy, though these benefits only ap- pear when enough objects are being clustered. Icicle plots are described, and their benefits are illustrated using a clustering of 48 objects.",
         "author": "Kruskal, Joseph B and Landwehr, James M",
@@ -617,7 +742,7 @@
         "author": "Krzywinski, Martin and Schein, Jacqueline and Birol, Inanc and Connors, Joseph and Gascoyne, Randy and Horsman, Doug and Jones, Steven J and Marra, Marco A",
         "doi": "10.1101/gr.092759.109",
         "journal": "Genome research",
-        "keywords": "contribution:technique, family:other, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate",
         "number": "9",
         "pages": "1639--1645",
         "publisher": "Cold Spring Harbor Lab",
@@ -629,7 +754,7 @@
         "year": "2009"
     },
     "leblanc1990dimensionalstacking": {
-        "abstract": "Dimensional stacking to produce flat (two-way) tables of frequencies (see also Ward et al., 1994). ABSTRACT: The ability of researchers in the scientific and engineering community to generate or acquire data far outstrips their ability to analyze it. This problem is even more pronounced when the data is of high dimensionality. Visualization has been identified as a critical technique for exploring data sets, but the visualization tools developed to date have mostly concentrated on the display of low (one to four) dimensional data. Ideally a tool for examining N-dimensional data should allow the presentation of the data in a way that can be intuitively interpreted and allow the display of arbitrary views and subsets of the data. The work presented in this paper describes the creation of such a tool using a technique which we term dimensional stacking.",
+        "abstract": "Dimensional stacking to produce flat (two-way) tables of frequencies (see also Ward et al., 1994). This is the same as Pivot tables comprising composite categorical variables; Cox, 2007 - \"Stata tip 52: Generating composite categorical variables\"). ABSTRACT: The ability of researchers in the scientific and engineering community to generate or acquire data far outstrips their ability to analyze it. This problem is even more pronounced when the data is of high dimensionality. Visualization has been identified as a critical technique for exploring data sets, but the visualization tools developed to date have mostly concentrated on the display of low (one to four) dimensional data. Ideally a tool for examining N-dimensional data should allow the presentation of the data in a way that can be intuitively interpreted and allow the display of arbitrary views and subsets of the data. The work presented in this paper describes the creation of such a tool using a technique which we term dimensional stacking.",
         "author": "LeBlanc, Jeffrey and Ward, Matthew O and Wittels, Norman",
         "booktitle": "Proceedings of the First IEEE Conference on Visualization: Visualization90",
         "doi": "10.1109/VISUAL.1990.146386",
@@ -718,10 +843,10 @@
         "year": "2012"
     },
     "park2023gatherplot": {
-        "abstract": "Gatherplot. When used with three categorical variables, it is essentially a faceted waffle chart with optional scaling/normalisation. ABSTRACT: Scatterplots are a common tool for exploring multidimensional datasets, especially in the form of scatterplot matrices (SPLOMs). However, scatterplots suffer from overplotting when categorical variables are mapped to one or two axes, or the same continuous variable is used for both axes. Previous methods such as histograms or violin plots use aggregation, which makes brushing and linking difficult. To address this, we propose gatherplots, an extension of scatterplots to manage the overplotting problem. Gatherplots are a form of unit visualization, which avoid aggregation and maintain the identity of individual objects to ease visual perception. In gatherplots, every visual mark that maps to the same position coalesces to form a packed entity, thereby making it easier to see the overview of data groupings. The size and aspect ratio of marks can also be changed dynamically to make it easier to compare the composition of different groups. In the case of a categorical variable vs. a categorical variable, we propose a heuristic to decide bin sizes for optimal space usage. To validate our work, we conducted a crowdsourced user study that shows that gatherplots enable people to assess data distribution more quickly and more correctly than when using jittered scatterplots",
+        "abstract": "Gatherplot. When used with three categorical variables, it is essentially a faceted waffle chart or frequency grid with optional scaling/normalisation. ABSTRACT: Scatterplots are a common tool for exploring multidimensional datasets, especially in the form of scatterplot matrices (SPLOMs). However, scatterplots suffer from overplotting when categorical variables are mapped to one or two axes, or the same continuous variable is used for both axes. Previous methods such as histograms or violin plots use aggregation, which makes brushing and linking difficult. To address this, we propose gatherplots, an extension of scatterplots to manage the overplotting problem. Gatherplots are a form of unit visualization, which avoid aggregation and maintain the identity of individual objects to ease visual perception. In gatherplots, every visual mark that maps to the same position coalesces to form a packed entity, thereby making it easier to see the overview of data groupings. The size and aspect ratio of marks can also be changed dynamically to make it easier to compare the composition of different groups. In the case of a categorical variable vs. a categorical variable, we propose a heuristic to decide bin sizes for optimal space usage. To validate our work, we conducted a crowdsourced user study that shows that gatherplots enable people to assess data distribution more quickly and more correctly than when using jittered scatterplots",
         "author": "Park, Deokgun and Kim, Sung-Hee and Elmqvist, Niklas",
         "journal": "arXiv preprint arXiv:2301.10843",
-        "keywords": "contribution:technique, family:other, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate",
+        "keywords": "contribution:technique, family:glyph, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate",
         "series": "Other",
         "title": "Gatherplot: A Non-Overlapping Scatterplot",
         "type": "article",
@@ -773,7 +898,7 @@
     "playfair1801pie": {
         "abstract": "Pie chart, aka circle chart, sector graph (cf. donut chart/doughnut chart, waffle chart, polar area diagram). This source is widely credited as containing the earliest known pie charts, one of which is pictured.",
         "author": "Playfair, William",
-        "keywords": "contribution:technique, family:pie, data_type:homogeneous, dimensionality:univariate, cardinality:low",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:univariate, cardinality:low",
         "publisher": "Wallis",
         "series": "Book",
         "title": "The statistical breviary",
@@ -781,8 +906,23 @@
         "url": "https://en.wikipedia.org/wiki/Pie_chart",
         "year": "1801"
     },
+    "rahlf2019cat": {
+        "abstract": "The presentation of simple frequencies or of parameters such as percentages or averages by bar and column charts is certainly one of the most widely used visualisations. Therefore, this is where we want to start. Sometimes though, one might want to also plot parameters that are located on a scale between two statements. In such cases, the use of a profile plot makes sense. If there are a lot of attributes in a bar chart and/or you want to plot several variables simultaneously, then a different illustration form is needed. In such cases, a dot chart comes in handy. The next section explains regular pie charts, but also gives examples of spie charts, radial polygons, and radial column charts. ``Chart tables'' refers to illustration types in which the arrangement of information has table character. We start with suggestions for two variants of so-called Gantt-charts, then follow with examples for a bump chart, a heat map, a mosaic plot and two examples for tree maps.",
+        "author": "Rahlf, Thomas",
+        "booktitle": "Data Visualisation with R: 111 Examples",
+        "doi": "10.1007/978-3-030-28444-2_6",
+        "isbn": "978-3-030-28444-2",
+        "keywords": "contribution:survey, data_type:homogeneous",
+        "pages": "95--190",
+        "publisher": "Springer",
+        "series": "Other",
+        "title": "Categorical Data",
+        "type": "Inbook",
+        "url": "https://doi.org/10.1007/978-3-030-28444-2_6",
+        "year": "2019"
+    },
     "rao1994tablelens": {
-        "abstract": "Table Lens. ABSTRACT: We present a new visualization, called the Table Lens, for visualizing and making sense of large tables. The visualization uses a focus+ccmtext (fisheye) technique that works effectively on tabular information because it allows display of crucial label information and multiple distal focal areas. In addition, a graphical mapping scheme for depicting table contents has been developed for the most widespread kind of tables, the cases-by-variables table. The Table Lens fuses symbolic and gaphical representations into a single coherent view that can be fluidly adjusted by the user. This fusion and interactivity enables an extremely rich and natural style of direct manipulation exploratory data analysis.",
+        "abstract": "Table Lens. ABSTRACT: We present a new visualization, called the Table Lens, for visualizing and making sense of large tables. The visualization uses a focus+context (fisheye) technique that works effectively on tabular information because it allows display of crucial label information and multiple distal focal areas. In addition, a graphical mapping scheme for depicting table contents has been developed for the most widespread kind of tables, the cases-by-variables table. The Table Lens fuses symbolic and gaphical representations into a single coherent view that can be fluidly adjusted by the user. This fusion and interactivity enables an extremely rich and natural style of direct manipulation exploratory data analysis.",
         "author": "Rao, Ramana and Card, Stuart K",
         "booktitle": "Proceedings of the SIGCHI conference on Human factors in computing systems",
         "doi": "10.1145/191666.191776",
@@ -852,10 +992,10 @@
         "year": "2004"
     },
     "rudis2019waffle": {
-        "abstract": "Waffle chart, aka square pie chart, frequency grid plot. ABSTRACT: Square pie charts (a.k.a. waffle charts) can be used to communicate parts of a whole for categorical quantities. To emulate the percentage view of a pie chart, a 10x10 grid should be used with each square representing 1% of the total. Modern uses of waffle charts do not necessarily adhere to this rule and can be created with a grid of any rectangular shape. Best practices suggest keeping the number of categories small, just as should be done when creating pie charts. Tools are provided to create waffle charts as well as stitch them together, and to use glyphs for making isotype pictograms.",
+        "abstract": "Waffle chart, aka square pie chart, frequency grid (Micallef et al., 2012). ABSTRACT: Square pie charts (a.k.a. waffle charts) can be used to communicate parts of a whole for categorical quantities. To emulate the percentage view of a pie chart, a 10x10 grid should be used with each square representing 1% of the total. Modern uses of waffle charts do not necessarily adhere to this rule and can be created with a grid of any rectangular shape. Best practices suggest keeping the number of categories small, just as should be done when creating pie charts. Tools are provided to create waffle charts as well as stitch them together, and to use glyphs for making isotype pictograms.",
         "author": "Rudis, Bob and Gandy, Dave",
         "journal": "R package version",
-        "keywords": "contribution:technique, family:pie, data_type:homogeneous, dimensionality:univariate, cardinality:low",
+        "keywords": "contribution:technique, family:glyph, data_type:homogeneous, dimensionality:univariate, cardinality:low",
         "number": "1",
         "series": "R package",
         "title": "Waffle: Create waffle chart visualizations",
@@ -870,7 +1010,7 @@
         "doi": "https://doi.org/10.1016/j.earscirev.2019.103055",
         "issn": "0012-8252",
         "journal": "Earth-Science Reviews",
-        "keywords": "contribution:technique, family:pie, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate",
+        "keywords": "contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate",
         "pages": "103055",
         "series": "Earth-Science Reviews",
         "title": "Making rose diagrams fit-for-purpose",
@@ -954,7 +1094,7 @@
         "author": "Siirtola, Harri",
         "booktitle": "Proceedings of the 28th International BCS Human Computer Interaction Conference (HCI 2014) 28",
         "doi": "10.14236/ewic/hci2014.30",
-        "keywords": "contribution:evaluation, family:bar/pie, dimensionality:univariate, data_type:homogeneous, cardinality:low",
+        "keywords": "contribution:evaluation, family:bar, family:radial, dimensionality:univariate, data_type:homogeneous, cardinality:low",
         "pages": "240--245",
         "publisher": "BCS",
         "series": "BCS HCI",
@@ -968,7 +1108,7 @@
         "author": "Stasko, John and Zhang, Eugene",
         "booktitle": "IEEE Symposium on Information Visualization 2000. INFOVIS 2000. Proceedings",
         "doi": "10.1109/INFVIS.2000",
-        "keywords": "contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:low",
+        "keywords": "contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low",
         "organization": "IEEE",
         "pages": "57--65",
         "publisher": "IEEE",
@@ -1045,7 +1185,7 @@
         "year": "1999"
     },
     "upton2000cobweb": {
-        "abstract": "Cobweb diagrams, where nodes represent categories and edge thickness conveys deviations from independence in a pairwise manner. ABSTRACT: Cobwebs represent the categories of cross-classifying variables by nodes on the arcs of a circle. Linking two nodes by a line provides information about the corresponding two-variable marginal table. In this paper the widths of the lines are proportional to the square of the adjusted residuals corresponding to the \u00aet of the independence model to the marginal table. Lines are shaded to indicate the signs of the residuals. The method can be used with variables of mixed types and for conditional independence models.",
+        "abstract": "Cobweb diagrams, where nodes represent categories and edge thickness conveys deviations from independence in a pairwise manner. ABSTRACT: Cobwebs represent the categories of cross-classifying variables by nodes on the arcs of a circle. Linking two nodes by a line provides information about the corresponding two-variable marginal table. In this paper the widths of the lines are proportional to the square of the adjusted residuals corresponding to the fit of the independence model to the marginal table. Lines are shaded to indicate the signs of the residuals. The method can be used with variables of mixed types and for conditional independence models.",
         "author": "Upton, Graham JG",
         "doi": "https://doi.org/10.1111/1467-9884.00221",
         "journal": "Journal of the Royal Statistical Society: Series D (The Statistician)",
@@ -1080,7 +1220,7 @@
         "author": "Wang, Weixin and Wang, Hui and Dai, Guozhong and Wang, Hongan",
         "booktitle": "Proceedings of the SIGCHI conference on Human Factors in computing systems",
         "doi": "10.1145/1124772.1124851",
-        "keywords": "contribution:technique, family:tree, data_type:homogeneous, dimensionality:univariate, cardinality:high",
+        "keywords": "contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:univariate, cardinality:high",
         "pages": "517--520",
         "series": "SIGCHI",
         "title": "Visualization of large hierarchical data by circle packing",

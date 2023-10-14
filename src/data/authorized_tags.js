@@ -17,11 +17,14 @@ const userDefinedAuthorizedTags = {
 	"contribution:application": {
 		"description": "the paper applies categorical data to a specific application"
 	},
+	"contribution:textbook": {
+		"description": "a textbook or monograph on the topic of visualising categorical data"
+	},
 	"family:bar": {
 		"description": "the technique is closely related to, or derived from, the classic bar chart"
 	},
-	"family:pie": {
-		"description": "the technique is closely related to, or derived from, the classic pie char"
+	"family:radial": {
+		"description": "the technique is laid out in circular or elliptical form; it uses the polar coordinate system rather than Cartesian coordinates"
 	},
 	"family:mosaic": {
 		"description": "the technique is supported by Meyer et al.’s ‘vcd’ package and ‘strucplot’ framework; commonalities include the use of area to encode frequency and other visual channels (e.g. colour) to highlight statistical attributes and display hierarchical conditional flat tables"
