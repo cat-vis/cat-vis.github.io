@@ -33,7 +33,7 @@ const userDefinedAuthorizedTags = {
 		"description": "the technique imposes a hierarchy on the variables displayed and uses area to represent frequency"
 	},
 	"family:glyph": {
-		"description": "the technique uses icons to represent individual items in the dataset"
+		"description": "the technique uses icons to represent individual or grouped items in the dataset"
 	},
 	"family:table": {
 		"description": "the technique represents data in a 2D table or matrix; the cells use visual encodings to enhance readability."
