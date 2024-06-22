@@ -2,7 +2,7 @@ const userDefinedTagCategories = {
 	"contribution": {
 		"description": "the main type of contribution made by the paper, and hence the reason for its inclusion in this survey"
 	},
-	"family": {
+	"representation": {
 		"description": "the broad family into which the technique falls"
 	},
 	"data_type": {
@@ -13,5 +13,8 @@ const userDefinedTagCategories = {
 	},
 	"cardinality": {
 		"description": "an indication of how many categories, or levels, the technique supports"
+	},
+	"alignment": {
+		"description": "the layout used by the technique"
 	}
 }

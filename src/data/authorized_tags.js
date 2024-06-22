@@ -20,31 +20,28 @@ const userDefinedAuthorizedTags = {
 	"contribution:textbook": {
 		"description": "a textbook or monograph on the topic of visualising categorical data"
 	},
-	"family:bar": {
-		"description": "the technique is closely related to, or derived from, the classic bar chart"
+	"contribution:ordering_algorithm": {
+		"description": "the paper contributes an algorithm for rearranging categorical data"
 	},
-	"family:radial": {
-		"description": "the technique is laid out in circular or elliptical form; it uses the polar coordinate system rather than Cartesian coordinates"
+	"representation:size-encoding": {
+		"description": "the technique uses length (e.g. bars or arcs) to convey information"
 	},
-	"family:mosaic": {
-		"description": "the technique is supported by Meyer et al.’s ‘vcd’ package and ‘strucplot’ framework; commonalities include the use of area to encode frequency and other visual channels (e.g. colour) to highlight statistical attributes and display hierarchical conditional flat tables"
+	"representation:space-filling": {
+		"description": "The technique may impose a hierarchy on the variables displayed and uses area to represent frequency"
 	},
-	"family:tree": {
-		"description": "the technique imposes a hierarchy on the variables displayed and uses area to represent frequency"
-	},
-	"family:glyph": {
+	"representation:glyph": {
 		"description": "the technique uses icons to represent individual or grouped items in the dataset"
 	},
-	"family:table": {
+	"representation:table": {
 		"description": "the technique represents data in a 2D table or matrix; the cells use visual encodings to enhance readability."
 	},
-	"family:projection": {
+	"representation:projection": {
 		"description": "the technique converts categories into numerical values before visualising them (aka ‘QuantViz’ or ‘intermediate representations’)"
 	},
-	"family:other": {
-		"description": "the technique does not clearly belong to any of the other families"
+	"representation:other": {
+		"description": "the technique does not clearly belong to any of the other categories"
 	},
-	"family:not_applicable": {
+	"representation:not_applicable": {
 		"description": "the paper does not describe a technique"
 	},
 	"data_type:homogeneous": {
@@ -100,5 +97,26 @@ const userDefinedAuthorizedTags = {
 	},
 	"paper_type:other": {
 		"description": "another type of publication, such as a book or technical report"
+	},
+	"alignment:linear": {
+		"description": "the technique is laid out in linear or parallel fashion"
+	},
+	"alignment:radial": {
+		"description": "the technique is laid out in circular or elliptical form; it uses the polar coordinate system rather than Cartesian coordinates"
+	},
+	"alignment:metric_dependent": {
+		"description": "the layout of the technique is driven by metrics"
+	},
+	"alignment:other": {
+		"description": "the layout does not fit into any other categories"
+	},
+	"alignment:not_applicable": {
+		"description": "the paper does not describe a technique"
+	},
+	"projection_transformation": {
+		"description": "The projection technique proposes an algorithm for converting categories into numbers"
+	},
+	"projection_representation": {
+		"description": "The projection technique proposes a new visualisation technique for representing the numerical values"
 	}
 }

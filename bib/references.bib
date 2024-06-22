@@ -1,7 +1,7 @@
 @book{playfair1786bar,
   title={The commercial and political atlas},
-  abstract={The humble bar chart: a simple yet powerful visualisation technique for a single variable. Can be horizontal or vertical (cf. diverging bar chart, Du Bois wrapped bar chart, and the bar chart's bivariate counterparts, including the stacked bar chart and variable-width bar chart). The first bar chart in history is widely considered to be Playfair's "Exports and Imports of Scotland to and from different parts for one Year from Christmas 1780 to Christmas 1781 graph".},
-  keywords = {contribution:technique, family:bar, data_type:homogeneous, dimensionality:univariate, cardinality:high},
+  abstract={The humble bar chart: a simple yet powerful visualisation technique for a single variable. Can be horizontal or vertical, sometimes called a column chart (cf. diverging bar chart, radial bar chart, Du Bois wrapped bar chart, and the bar chart's bivariate counterparts, including the stacked bar chart and variable-width bar chart). The first bar chart in history is widely considered to be Playfair's "Exports and Imports of Scotland to and from different parts for one Year from Christmas 1780 to Christmas 1781 graph".},
+  keywords = {contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:univariate, cardinality:very_high, alignment:linear},
   author={Playfair, William},
   year={1786},
   publisher={Wallis},
@@ -21,13 +21,13 @@ issn = {2468-502X},
 doi = {https://doi.org/10.1016/j.visinf.2018.09.002},
 url = {https://www.sciencedirect.com/science/article/pii/S2468502X18300287},
 author = {Indratmo and Howorko, Lee and Boedianto, Joyce Maria and Daniel, Ben},
-keywords = {contribution:technique, contribution:evaluation, family:bar, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate},
+keywords = {contribution:technique, contribution:evaluation, representation:size-encoding, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, alignment:linear},
 abstract = {Stacked bar chart and its variants, including the grouped bar chart (aka clustered bar chart, multiple bar chart, multi-series bar chart), 100% stacked bar chart, layered bar chart, diverging stacked bar chart (aka bilateral bar chart) and inverting stacked bar chart. Can be trivariate if faceted (cf. trellis displays). ABSTRACT: Stacked bar charts are a visualization method for presenting multiple attributes of data, and many visualization tools support these charts. To assess the efficacy of stacked bar charts in supporting attribute-comparison tasks, we conducted a user study to compare three types of stacked bar charts: classical, inverting, and diverging. Each chart type was used to visualize six attributes of data where half of the attributes have the characteristics of ‘lower better’ whereas the other half attributes are with ‘higher better.’ Thirty participants were asked to perform two types of comparison tasks: single-attribute and overall-attribute comparisons. We measured the completion time, error rate, and perceived difficulty of the comparison tasks. The results of the study suggest that, for overall-attribute comparisons, the inverting stacked bar chart was the most effective with regards to the completion time. The results also show that performing overall-attribute comparisons using the classical and diverging stacked bar charts required more time than performing single-attribute comparisons using these charts. Participants perceived the inverting and diverging stacked bar charts as easier-to-use than the classical stacked bar chart for overall-attribute comparisons. However, for single-attribute comparisons, all chart types delivered similar performance. We discuss how these findings can inform the better design of interactive stacked bar charts and visualization tools.}
 }
 
 @article{becker1996trellis,
   abstract={Trellis display, aka lattice plot, facet plot, faceting (cf. co-plot, conditioning plot, small multiples). ABSTRACT: Trellis display is a framework for the visualization of data. Its most prominent aspect is an overall visual design, reminiscent of a garden trelliswork, in which panels are laid out into rows, columns, and pages. On each panel of the trellis, a subset of the data is graphed by a display method such as a scatterplot, curve plot, boxplot, 3-D wireframe, normal quantile plot, or dot plot. Each panel shows the relationship of certain variables conditional on the values of other variables. A number of display methods employed in the visual design of Trellis display enable it to succeed in uncovering the structure of data even when the structure is quite complicated. For example, Trellis display provides a powerful mechanism for understanding interactions in studies of how a response depends on explanatory variables. Three examples demonstrate this; in each case, we make important discoveries not appreciated in the original analyses. Several control methods are also essential to Trellis display. A control method is a technique for specifying information so that a display can be drawn. The control methods of Trellis display form a basic conceptual framework that can be used in designing software. We have demonstrated the viability of the control methods by implementing them in the S/S-PLUS system for graphics and data analysis, but they can be implemented in any software system with a basic capability for drawing graphs.},
-  keywords={contribution:framework, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate, family:not_applicable},
+  keywords={contribution:framework, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate, representation:not_applicable, alignment:linear},
   series={Journal of Computational and Graphical Statistics},
   title={The visual design and control of trellis display},
   author={Becker, Richard A and Cleveland, William S and Shyu, Ming-Jen},
@@ -43,7 +43,7 @@ abstract = {Stacked bar chart and its variants, including the grouped bar chart 
 @book{playfair1801pie,
   title={The statistical breviary},
   abstract={Pie chart, aka circle chart, sector graph (cf. donut chart/doughnut chart, waffle chart, polar area diagram). This source is widely credited as containing the earliest known pie charts, one of which is pictured.},
-  keywords = {contribution:technique, family:radial, data_type:homogeneous, dimensionality:univariate, cardinality:low},
+  keywords = {contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:univariate, cardinality:low, alignment:radial},
   author={Playfair, William},
   year={1801},
   publisher={Wallis},
@@ -56,7 +56,7 @@ abstract = {Stacked bar chart and its variants, including the grouped bar chart 
   abstract = {Waffle chart, aka square pie chart, frequency grid (Micallef et al., 2012). ABSTRACT: Square pie charts (a.k.a. waffle charts) can be used to communicate parts of a whole for categorical quantities. To emulate the percentage view of a pie chart, a 10x10 grid should be used with each square representing 1% of the total. Modern uses of waffle charts do not necessarily adhere to this rule and can be created with a grid of any rectangular shape. Best practices suggest keeping the number of categories small, just as should be done when creating pie charts. Tools are provided to create waffle charts as well as stitch them together, and to use glyphs for making isotype pictograms.},
   author={Rudis, Bob and Gandy, Dave},
   journal={R package version},
-  keywords={contribution:technique, family:glyph, data_type:homogeneous, dimensionality:univariate, cardinality:low},
+  keywords={contribution:technique, representation:glyph, data_type:homogeneous, dimensionality:univariate, cardinality:low, alignment:linear},
   volume={1},
   number={1},
   year={2019},
@@ -77,7 +77,7 @@ of the participants (44%) perceived the pie or doughnut chart to be the fastest 
 Only six participants recognized the bar chart as the fastest technique, and half of them still preferred the
 pie chart over them. This subjective preference at the expense of performance may explain why pie charts
 are so widely used in spite of being criticized.},
-  keywords = {contribution:evaluation, family:bar, family:radial, dimensionality:univariate, data_type:homogeneous, cardinality:low},
+  keywords = {contribution:evaluation, representation:size-encoding, alignment:radial, alignment:linear, dimensionality:univariate, data_type:homogeneous, cardinality:low},
   booktitle={Proceedings of the 28th International BCS Human Computer Interaction Conference (HCI 2014) 28},
   series = {BCS HCI},
   doi = {10.14236/ewic/hci2014.30},
@@ -90,7 +90,7 @@ are so widely used in spite of being criticized.},
 @inproceedings{stasko2000sunburst,
   title={Focus + context display and navigation techniques for enhancing radial, space-filling hierarchy visualizations},
   author={Stasko, John and Zhang, Eugene},
-  keywords = {contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low},
+  keywords = {contribution:technique, representation:space-filling, alignment:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low},
   abstract={Sunburst diagram (aka ring chart, multi-level pie chart, nested pie chart), the radial equivalent of an icicle plot. ABSTRACT: Radial, space-filling visualizations can be useful for depicting
 information hierarchies, but they suffer from one
 major problem. As the hierarchy grows in size, many items
@@ -117,15 +117,13 @@ space.},
   author={Kruskal, Joseph B and Landwehr, James M},
   journal={The American Statistician},
   abstract = {Icicle plot, the cartesian equivalent of a sunburst diagram. ABSTRACT: An icicle plot is a method for presenting a hierarchical
- clustering. Compared with other methods of presenta-
- tion, it is far easier in an icicle plot to read off which
+ clustering. Compared with other methods of presentation, it is far easier in an icicle plot to read off which
  objects belong to which clusters, and which objects join
  or drop out from a cluster as we move up and down the
- levels of the hierarchy, though these benefits only ap-
- pear when enough objects are being clustered. Icicle
+ levels of the hierarchy, though these benefits only appear when enough objects are being clustered. Icicle
  plots are described, and their benefits are illustrated
  using a clustering of 48 objects.},
-  keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate},
+  keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear},
   series = {The American Statistician},
   volume={37},
   number={2},
@@ -148,7 +146,7 @@ space.},
   abstract={This paper describes the “strucplot” framework for the visualization of multi-way contingency tables. Strucplot displays include hierarchical conditional plots such as mosaic, association, and sieve plots, and can be combined into more complex, specialized plots for
 visualizing conditional independence, GLMs, and the results of independence tests. The framework’s modular design allows flexible customization of the plots’ graphical appearance, including shading, labeling, spacing, and legend, by means of “graphical appearance
 control” functions. The framework is provided by the R package vcd.},
-keywords={contribution:framework, family:mosaic, data_type:homogeneous, dimensionality:not_applicable, cardinality:not_applicable},
+keywords={contribution:framework, data_type:homogeneous, dimensionality:not_applicable, cardinality:not_applicable, alignment:not_applicable, representation:not_applicable},
 series={Journal of Statistical Software},
 doi={10.18637/jss.v017.i03},
 url={https://research.wu.ac.at/ws/portalfiles/portal/17299418/strucplot.pdf}
@@ -171,7 +169,7 @@ product plots, alluding to the computation of area as a product of height and wi
 distribution from the product of conditional and marginal distributions. The framework, with extensions, is sufficient to encompass
 over 20 visualisations previously described in fields of statistical graphics and infovis, including bar charts, mosaic plots, treemaps,
 equal area plots and fluctuation diagrams.},
-keywords={contribution:framework, family:not_applicable, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords={contribution:framework, representation:not_applicable, alignment:not_applicable, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
 }
 
 @inproceedings{johansson2011task,
@@ -197,7 +195,7 @@ in the context of two basic data analysis tasks: one related to similarity struc
 frequency. The results strongly indicate that the quantification approach is most efficient for the similarity related
 task, whereas the visual representation designed for categorical data is most efficient for the task related to category
 frequency.},
-keywords={contribution:evaluation, family:not_applicable, data_type:homogeneous, dimensionality:not_applicable, cardinality:not_applicable},
+keywords={contribution:evaluation, representation:not_applicable, data_type:homogeneous, dimensionality:not_applicable, cardinality:not_applicable, alignment:linear},
 publisher={IEEE}
 }
 
@@ -213,7 +211,7 @@ doi = {https://doi.org/10.1016/0010-0277(95)00664-8},
 url = {https://www.sciencedirect.com/science/article/pii/0010027795006648},
 author = {Cosmides, Leda and Tooby, John},
 abstract = {Professional probabilists have long argued over what probability means, with, for example, Bayesians arguing that probabilities refer to subjective degrees of confidence and frequentists arguing that probabilities refer to the frequencies of events in the world. Recently, Gigerenzer and his colleagues have argued that these same distinctions are made by untutored subjects, and that, for many domains, the human mind represents probabilistic information as frequencies. We analyze several reasons why, from an ecological and evolutionary perspective, certain classes of problem-solving mechanisms in the human mind should be expected to represent probabilistic information as frequencies. Then, using a problem famous in the “heuristics and biases” literature for eliciting base rate neglect, we show that correct Bayesian reasoning can be elicited in 76% of subjects - indeed, 92% in the most ecologically valid condition - simply by expressing the problem in frequentist terms. This result adds to the growing body of literature showing that frequentist representations cause various cognitive biases to disappear, including overconfidence, the conjunction fallacy, and base-rate neglect. Taken together, these new findings indicate that the conclusion most common in the literature on judgment under uncertainty - that our inductive reasoning mechanisms do not embody a calculus of probability - will have to be re-examined. From an ecological and evolutionary perspective, humans may turn out to be good intuitive statisticians after all.},
-keywords={contribution:evaluation, family:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable},
+keywords={contribution:evaluation, representation:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable, alignment:linear},
 series={Cognition}
 }
 
@@ -228,7 +226,7 @@ issn = {0012-8252},
 doi = {https://doi.org/10.1016/j.earscirev.2019.103055},
 url = {https://www.sciencedirect.com/science/article/pii/S001282521930594X},
 author = {Sanderson, David and Peacock, David},
-keywords = {contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate},
+keywords = {contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, alignment:radial},
 abstract = {Wind rose aka sector graphic (cf. polar area diagram, aka Nightingale rose diagram (see Nightingale 1857), Coxcomb chart). ABSTRACT: Rose diagrams are powerful tools for visually representing two-dimensional orientation (and other cyclic) data. The conventional practice of scaling the wedge radius to frequency leads to exaggeration of modal orientations and should be replaced by using wedges whose area is proportional to frequency (the equal-area wedge diagram). We outline a workflow in which the type of data (vectorial or axial), sample size and the degree of preferred orientation are used to control the type of plot (discrete or binned) and the parameters used for binning the data. This allows visual comparison of data using rose diagrams that are fit-for-purpose.}
 }
 
@@ -242,7 +240,7 @@ abstract = {Wind rose aka sector graphic (cf. polar area diagram, aka Nightingal
   organization={IEEE},
   url={http://www.ifs.tuwien.ac.at/~mlanzenberger/teaching/ps/ws06/stuff/00146386.pdf},
   doi={10.1109/VISUAL.1990.146386},
-  abstract={Dimensional stacking to produce flat (two-way) tables of frequencies (see also Ward et al., 1994). This is the same as Pivot tables comprising composite categorical variables; Cox, 2007 - "Stata tip 52: Generating composite categorical variables"). ABSTRACT: The ability of researchers in the scientific and engineering
+  abstract={Dimensional stacking to produce flat (two-way) tables of frequencies (see also Ward et al., 1994, XmdvTool). This is the same as Pivot tables comprising composite categorical variables; Cox, 2007 - "Stata tip 52: Generating composite categorical variables"). ABSTRACT: The ability of researchers in the scientific and engineering
 community to generate or acquire data far outstrips
 their ability to analyze it. This problem is even more
 pronounced when the data is of high dimensionality.
@@ -256,7 +254,7 @@ interpreted and allow the display of arbitrary views and
 subsets of the data. The work presented in this paper
 describes the creation of such a tool using a technique
 which we term dimensional stacking.},
-  keywords={contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @article{kosara2006parallelsets,
@@ -270,7 +268,7 @@ which we term dimensional stacking.},
   doi={10.1109/TVCG.2006.76},
   abstract={Parallel sets (cf. Sankey diagrams, Alluvial diagrams; see also Bendix et al., 2005 for an earlier paper; Kosara, 2010 for the updated design, pictured left; Havre et al., 2006 and Wittenberg, 2001 for similar ideas; Parallel Hierarchies by Vosough et al., 2018 for hierarchical categorical data). Can be presented in a hierarchical or pairwise manner (see Hofmann and Vendettuoli, 2013). For techniques that combine parallel sets with parallel coordinates to handle heterogeneous data, see CPCP (Categorical Parallel Coordinates Plot; Pilhofer and Unwin, 2013), GPCP (Generalized Parallel Coordinate Plots; VanderPlas et al., 2023), Parallel Assemblies Plots (Cantu et al., 2023) and SET-STAT-MAP (Wang et al., 2022). ABSTRACT: Categorical data dimensions appear in many real-world data sets, but few visualization methods exist that properly deal with them. Parallel Sets are a new method for the visualization and interactive exploration of categorical data that shows data frequencies instead of the individual data points. The method is based on the axis layout of parallel coordinates, with boxes representing the categories and parallelograms between the axes showing the relations between categories. In addition to the visual representation, we designed a rich set of interactions. Parallel Sets allow the user to interactively remap the data to new categorizations and, thus, to consider more data dimensions during exploration and analysis than usually possible. At the same time, a metalevel, semantic representation of the data is built. Common procedures, like building the cross product of two or more dimensions, can be performed automatically, thus complementing the interactive visualization. We demonstrate Parallel Sets by analyzing a large CRM data set, as well as investigating housing data from two US states.},
   series={TVCG},
-  keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{rocha2022heatmap,
@@ -284,7 +282,7 @@ which we term dimensional stacking.},
   pages={11-18},
   abstract={Heatmap Matrix (see also Rocha and da Silva, 2018 for original (static) design; Trye et al., 2023 for extensions and updated design). Cf. Mosaic Matrix for purely categorical data; GPLOM and generalized pairs plot for heterogeneous data.   ABSTRACT: Visualization can help users to analyze multidimensional datasets and make better decisions related to them. The current literature presents a set of multidimensional data visualization techniques that deal with discrete variables, continuous ones, or both. Recently, the heatmap matrix was proposed as an alternative for visualizing multidimensional datasets with discrete variables. It comprises a matrix of heatmaps, in which each heatmap shows the frequency of the values of two variables in the records of a dataset. Despite its proposed utility, it only presents a static representation of the dataset, which may limit users understanding about the dataset under analysis. Therefore, we propose to add interactive resources to this visualization, aiming to provide distinct views of a dataset. To guide the choice of new features, we compared the resources of a set of multidimensional visualizations and selected the characteristics that are suitable to enhance the heatmap matrix. We added to it resources for: (a) reordering values (rows and columns) of variables in its heatmaps; (b) filtering variables and values based on correlations of variables and on association rules; (c) discretizing continuous variables to be represented in the visual structure; among others. We present two case studies in which we show the potential of the heatmap matrix, enhanced by the resources proposed in this work, to assist the analysis of multidimensional data.},
   url={https://www.researchgate.net/publication/362222353_HEATMAP_MATRIX_USING_REORDERING_DISCRETIZATION_AND_FILTERING_RESOURCES_TO_ASSIST_MULTIDIMENSIONAL_DATA_ANALYSIS},
-  keywords= {contribution:technique, family:table, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+  keywords= {contribution:technique, representation:table, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @article{alsallakh2012contingency2,
@@ -300,7 +298,7 @@ which we term dimensional stacking.},
   url={https://web.archive.org/web/20121114205650id_/http://publik.tuwien.ac.at/files/PubDat_209191.pdf},
   doi={10.1109/TVCG.2012.254},
   series={TVCG},
-  keywords={contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high}
+  keywords={contribution:technique, representation:other, alignment:radial, alignment:metric_dependent, data_type:homogeneous, dimensionality:trivariate, cardinality:very_high}
 }
 
 @inproceedings{tennekes2013exploration,
@@ -319,7 +317,7 @@ innovative visualisation method for exploring large statistical datasets that he
 to explore relationships between variables, outliers and odd data patterns. We illustrate
 the suitability of the tableplot on the Dutch insurance policy record administration, which
 is a large data source with high cardinality hierarchical variables.},
-  keywords={contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings {thane2023catnetvis,
@@ -334,7 +332,7 @@ DOI = {10.2312/evs.20231049},
 abstract = {CatNetVis. ABSTRACT: We introduce CatNetVis, a novel method of representing semantical relations in categorical high-dimensional data. Traditional methods provide insights into many aspects of visual exploration of data. However, most of them lack information on relations in between categories or even clusters of categories. The force-directed network layout utilized by CatNetVis enables a lightweight approach in order to explore such semantical relations. The connections within the network are perceived as an intuitive metaphor for clusters of connections/relations in categorical data denoted as communities. While the user interacts, visual encodings such as information about the entropy and frequencies allow a fast perception of relation between categories and its frequencies, respectively. We illustrate how CatNetVis performs as an effective addition to traditional methods by demonstrating the method on an example data sets and comparing it to conventional methods.},
 url = {https://www.researchgate.net/profile/Michael-Thane/publication/371667091_CatNetVis_Semantic_Visual_Exploration_of_Categorical_High-Dimensional_Data_with_Force-Directed_Graph_Layouts/links/649d9170b9ed6874a5e6f92e/CatNetVis-Semantic-Visual-Exploration-of-Categorical-High-Dimensional-Data-with-Force-Directed-Graph-Layouts.pdf},
 series = {EuroVis},
-keywords = {contribution:technique, family:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+keywords = {contribution:technique, representation:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, projection_representation, network, alignment:metric_dependent}
 }
 
 @article{hofmann2001doubledecker,
@@ -350,21 +348,21 @@ keywords = {contribution:technique, family:projection, data_type:heterogeneous, 
   doi={https://doi.org/10.1198/106186001317243368},
   url={https://www.tandfonline.com/doi/pdf/10.1198/106186001317243368?casa_token=wx-tu_jVrDAAAAAA:6H8LZ2h5C7eIbsLZWQeoKJtxtF_VqC5kMSRWwbsd9lP_hLGX9ohJnB6mUSKAoIMYI3B0B_pv5zl8gQ},
   abstract = {Double-decker plot. Special case of a mosaic plot which displays all predictor variables on one axis and a response variable on the other. Shows conditional odds ratios of the response conditional on the predictors, such that the vertical bars align when one or more predictors are not associated with the response variable. ABSTRACT: The problem of displaying interaction effects graphically has been studied for a long time. This article shows how mosaic plots can be applied to visualize interaction effects in categorical data. This idea leads to a graphical approach for model selection based on a classical backward selection},
-  keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+  keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:low, alignment:linear}
 }
 
 @inproceedings{hartigan1981mosaic,
   title={Mosaics for contingency tables},
-  abstract={Mosaic plot, aka Marimekko charts, Mekko charts (cf. Eikosograms). See also Mosaic plots with residual-based shading to visualize log-linear models (Friendly, 1994; Zeileis et al., 2007). Note that spineplots (Hummel, 1996) are the one-dimensional version of a mosaic plot. ABSTRACT: A contingency table specifies the joint distribution of a number of discrete variables. The numbers in a contingency table are represented by rectangles of areas proportional to the numbers, with shape and position chosen to expose deviations from independence models. The collection of rectangles for the contingency table is called a mosaic. Mosaics of various types are given for contingency tables of two and more variables.},
+  abstract={Mosaic plot (cf. Marimekko charts, Mekko charts, Eikosograms). See also Mosaic plots with residual-based shading to visualize log-linear models (Friendly, 1994; Zeileis et al., 2007). Note that spineplots (Hummel, 1996) are the one-dimensional version of a mosaic plot. ABSTRACT: A contingency table specifies the joint distribution of a number of discrete variables. The numbers in a contingency table are represented by rectangles of areas proportional to the numbers, with shape and position chosen to expose deviations from independence models. The collection of rectangles for the contingency table is called a mosaic. Mosaics of various types are given for contingency tables of two and more variables.},
   author={Hartigan, John A and Kleiner, Beat},
   booktitle={Computer science and statistics: Proceedings of the 13th symposium on the interface},
   pages={268--273},
   year={1981},
   organization={Springer},
   publisher={Springer},
-  series={Other},
+  series={Other Conference},
   doi={https://doi.org/10.1007/978-1-4613-9464-8_37},
-  keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{hofmann2000fluctuation,
@@ -378,8 +376,8 @@ keywords = {contribution:technique, family:projection, data_type:heterogeneous, 
   url={https://link.springer.com/content/pdf/10.1007/s001840000041.pdf},
   doi={https://doi.org/10.1007/s001840000041},
   series={Metrika},
-  abstract={Fluctuation diagram (aka matrix plot in RAWGraphs) and equal bin size plot (latter is useful for visualising missing combinations/sparse data). ABSTRACT: The paper outlines what we can and should expect of an interactive system for exploratory analysis of categorical data. By means of the example of Mosaic Plots – the graphical analogue of multivariate contingency tables – it is shown how much power a graphic gains when interactive features are added. Together with this article come accompanying HTML scripts where the examples are available in a more detailed and interactive form to give the user insight into the `look & feel' effect of interactive graphics. Besides the examples the script includes a small test version of MANET– the software for interactive exploratory analysis developed at the COSADA department in Augsburg university.},
-  keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  abstract={Fluctuation diagram (aka matrix plot in RAWGraphs, Proportional Area Charts) and equal bin size plot (latter is useful for visualising missing combinations/sparse data). ABSTRACT: The paper outlines what we can and should expect of an interactive system for exploratory analysis of categorical data. By means of the example of Mosaic Plots – the graphical analogue of multivariate contingency tables – it is shown how much power a graphic gains when interactive features are added. Together with this article come accompanying HTML scripts where the examples are available in a more detailed and interactive form to give the user insight into the `look & feel' effect of interactive graphics. Besides the examples the script includes a small test version of MANET– the software for interactive exploratory analysis developed at the COSADA department in Augsburg university.},
+  keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @techreport{friendly1995fourfold,
@@ -387,14 +385,14 @@ keywords = {contribution:technique, family:projection, data_type:heterogeneous, 
   author={Friendly, Michael},
   year={1995},
   institution={Technical Report 217, Psychology Department, York University},
-  abstract = {Four-fold display. ABSTRACT: This paper describes the fourfold display, a graphic designed to display the frequencies in a 2 × 2 × k
+  abstract = {Four-fold display (see also Fienberg, 1975). ABSTRACT: This paper describes the fourfold display, a graphic designed to display the frequencies in a 2 × 2 × k
 contingency table. In this display the frequency in each cell is shown by a quarter circle, whose area is
 proportional to the cell count in a given 2 layer, × 2 in a way that depicts the odds ratios for k strata.
 Confidence rings for the odds ratio can be superimposed to provide a visual test of the hypothesis of no
 association in each stratum.},
-series = {Other},
+series = {Technical Report},
 url={https://www.datavis.ca/papers/4fold/4fold.pdf},
-keywords = {contribution:technique, family:mosaic, family:radial, data_type:homogeneous, dimensionality:trivariate, cardinality:very_low}
+keywords = {contribution:technique, representation:space-filling, alignment:radial, data_type:homogeneous, dimensionality:trivariate, cardinality:very_low}
 }
 
 @article{friendly1999mosaicmatrix,
@@ -423,7 +421,7 @@ conditioned by the values of one or more other variables. A direct analog of the
 by the values of one or more given variables. Each such panel then shows the partial associations
 among the foreground variables; the collection of such plots show how these associations change
 as the given variables vary.},
-keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:low, alignment:linear}
 }
 
 @inproceedings{riedwyl1994sieve,
@@ -435,8 +433,8 @@ keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimens
   organization={Gustav Fischer},
   publisher={Gustav Fischer},
   abstract={Sieve diagram, aka Parquet diagram (see also Riedwyl and Schüpbach, 1983).},
-  series={Other},
-  keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate}
+  series={Book},
+  keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{cohen1980association,
@@ -447,11 +445,11 @@ keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimens
   number={10},
   pages={1025--1041},
   year={1980},
-  series={Other},
+  series={Communications in Statistics - Theory and Methods},
   publisher={Taylor \& Francis},
   doi = {10.1080/03610928008827940},
   abstract = {Association Plots directly visualise Pearson and raw residuals (useful for assessing independence). ABSTRACT: Graphical methods have been previously proposed for studying the cell contributions to the chi-square statistics in two-way contingency tables. Clustering techniques are suggested for analyzing the differences among the frequency distributions of either the columns or the rows of the contingency cables. Modifications are proposed to the other methods: first, varying widths of bars according to the expected cell counts, then the gannria probability plot of the individual chi-square terms.},
-  keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate}
+  keywords = {contribution:technique, representation:space-filling?, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{kolatch2001cattrees,
@@ -461,7 +459,7 @@ keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimens
   abstract={CatTrees. Note that mosaic displays and categorical treemaps are largely equivalent. ABSTRACT: Social scientists collect a significant amount of categorical data. Current visualizations of categorical data are primarily static. They do not accommodate the concept of dynamic queries or implement the essentials of interactive visualizations. We have designed a tool, an enhancement of Treemaps called CatTrees, which takes categorical data, creates a hierarchy from it, and allows direct, interactive manipulation of that hierarchy.},
   series={Other},
   year={2001},
-  keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{furmanova2020taggle,
@@ -477,7 +475,7 @@ keywords = {contribution:technique, family:mosaic, data_type:homogeneous, dimens
   doi={https://doi.org/10.1177/14738716198780},
   url={http://data.jku-vds-lab.at/papers/2019_sage_infovis_taggle.pdf},
   abstract={Taggle (cf LineUp). ABSTRACT: Most tabular data visualization techniques focus on overviews, yet many practical analysis tasks are concerned with investigating individual items of interest. At the same time, relating an item to the rest of a potentially large table is important. In this work, we present Taggle, a tabular visualization technique for exploring and presenting large and complex tables. Taggle takes an item-centric, spreadsheet-like approach, visualizing each row in the source data individually using visual encodings for the cells. At the same time, Taggle introduces data-driven aggregation of data subsets. The aggregation strategy is complemented by interaction methods tailored to answer specific analysis questions, such as sorting based on multiple columns and rich data selection and filtering capabilities. We demonstrate Taggle by a case study conducted by a domain expert on complex genomics data analysis for the purpose of drug discovery.},
-  keywords={contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @inproceedings{rao1994tablelens,
@@ -500,7 +498,7 @@ symbolic and gaphical representations into a single coherent
 view that can be fluidly adjusted by the user. This fusion and
 interactivity enables an extremely rich and natural style of
 direct manipulation exploratory data analysis.},
-keywords = {contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords = {contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{park2023gatherplot,
@@ -509,8 +507,8 @@ keywords = {contribution:technique, family:table, data_type:heterogeneous, dimen
   journal={arXiv preprint arXiv:2301.10843},
   year={2023},
   url={https://arxiv.org/pdf/2301.10843.pdf},
-  series={Other},
-  abstract={Gatherplot. When used with three categorical variables, it is essentially a faceted waffle chart or frequency grid with optional scaling/normalisation. ABSTRACT: Scatterplots are a common tool for exploring multidimensional datasets, especially in the form of scatterplot matrices
+  series={Other Journal},
+  abstract={Gatherplot. When used with three categorical variables, it is essentially a faceted waffle chart or frequency grid with optional scaling/normalisation (cf. Icon plots, Kinetica). ABSTRACT: Scatterplots are a common tool for exploring multidimensional datasets, especially in the form of scatterplot matrices
 (SPLOMs). However, scatterplots suffer from overplotting
 when categorical variables are mapped to one or two axes,
 or the same continuous variable is used for both axes. Previous methods such as histograms or violin plots use aggregation, which makes brushing and linking difficult. To address
@@ -528,7 +526,7 @@ a heuristic to decide bin sizes for optimal space usage. To
 validate our work, we conducted a crowdsourced user study
 that shows that gatherplots enable people to assess data distribution more quickly and more correctly than when using
 jittered scatterplots},
-  keywords={contribution:technique, family:glyph, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate} 
+  keywords={contribution:technique, representation:glyph, data_type:heterogeneous, dimensionality:trivariate, cardinality:moderate, alignment:linear} 
 }
 
 
@@ -545,7 +543,7 @@ jittered scatterplots},
   series={TVCG},
   doi={10.1109/TVCG.2013.140},
   url={https://ieeexplore.ieee.org/abstract/document/6634157?casa_token=KlKNPkL_lBMAAAAA:lOyxbPssPYm7ipULyVXhMHgVaBMi8lMedtk8HNrZA6GlYzo6gJ5i41vK43ge2Q_GRt1O5RuGMqM},
-  keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 
@@ -570,7 +568,7 @@ adjust the desired level of detail for each categorical data property through dr
 and roll-up operations. This enables the analyst to selectively change levels of detail as
 the data analysis progresses and new questions arise. We illustrate the utility of Parallel
 Hierarchies with a demographic and a biological use case, and we report on a qualitative user study evaluating this visualization technique in an industrial scenario.},
-keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{schonlau2003hammock,
@@ -579,16 +577,16 @@ keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensio
   booktitle={Proceedings of the Section on Statistical Graphics, American Statistical Association},
   year={2003},
   publisher={ASA},
-  series={Other},
+  series={Other Conference},
   url={http://www.schonlau.net/publication/03jsm_hammockplot.pdf},
-  abstract={Hammock Plot (cf. Parallel Sets, which use vertical width rather than the shortest distance-width, and Common Angle Plots, which have an 'angled' box. ABSTRACT: I introduce the hammock plot, a new plot that can be used to visualize categorical data
+  abstract={Hammock Plot, see also 2024 paper by Schonlau (cf. Parallel Sets, which use vertical width rather than the shortest distance-width, and Common Angle Plots, which have an 'angled' box. ABSTRACT: I introduce the hammock plot, a new plot that can be used to visualize categorical data
 and mixed categorical / continuous data. It is well suited for all types of categorical data:
 both unordered and ordered categorical data as well as interval data. It can be viewed as a
 generalization of parallel coordinate plots where the lines are replaced by rectangles that
 are proportional to the number of observations they represent. In addition to the
 rectangles, hammock plots also incorporate univariate descriptors such as category labels
 into the graph. I illustrate the hammock plot with examples from the health sciences.},
-  keywords = {contribution:technique, family:tree, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords = {contribution:technique, representation:space-filling, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{im2013gplom,
@@ -616,7 +614,7 @@ prototype, that found that GPLOM is significantly faster in certain cases, and n
 series = {TVCG},
 doi={10.1109/TVCG.2013.160},
 url={https://web.archive.org/web/20170829020558id_/http://profs.etsmtl.ca/mmcguffin/research/2013-im-gplom/im-tvcg2013-gplom-officialPreprint.pdf},
-keywords={contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:low}
+keywords={contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:low, alignment:linear}
 }
 
 @article{emerson2013generalized,
@@ -631,7 +629,7 @@ keywords={contribution:technique, family:table, data_type:heterogeneous, dimensi
   series = {Journal of Computational and Graphical Statistics},
   doi = {10.1080/10618600.2012.694762},
   url = {https://web.archive.org/web/20141107113243id_/http://vita.had.co.nz:80/papers/gpp.pdf},
-  keywords = {contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:low},
+  keywords = {contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:low, alignment:linear},
   abstract = {Generalized Pairs Plot (cf. GPLOM for heterogeneous data; Heatmap Matrix and Mosaic Matrix for purely categorical data). ABSTRACT: This article develops a generalization of the scatterplot matrix based on the recognition
 that most datasets include both categorical and quantitative information. Traditional
 grids of scatterplots often obscure important features of the data when one or more variables
@@ -676,7 +674,7 @@ gplots package, and describe the features of our implementation. We then provide
 “Titanic” passenger survival data. We conclude with
 some observations on the balloonplot relative to the
 previously developed “mosaic plot”.},
-keywords = {contribution:technique, family:table, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords = {contribution:technique, representation:table, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @inproceedings{piringer2011exploring,
@@ -696,7 +694,7 @@ over- or under-proportional relationships explicitly. On an overview
 level, the visualization of various measures conveys pair-wise relationships between categorical dimensions. For more details, interaction supports to relate a single category to all categories of multiple dimensions. We discuss methods for representing relationships
 and visualization-driven strategies for ordering dimensions and categories, and we illustrate the approach by means of data from a
 social survey.},
-keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+keywords = {contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear, alignment:metric_dependent}
 }
 
 @inproceedings{reza2019hi,
@@ -711,7 +709,7 @@ keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensio
   doi={10.1109/VISUAL.2019.8933709},
   url={https://osf.io/qnt28/download},
   abstract={Hi-d maps. ABSTRACT: In this paper, we present Hi-D maps, a novel method for the visualization of multi-dimensional categorical data. Our work addresses the scarcity of techniques for visualizing a large number of data-dimensions in an effective and space-efficient manner. We have mapped the full data-space onto a 2D regular polygonal region. The polygon is cut hierarchically with lines parallel to a user-controlled, ordered sequence of sides, each representing a dimension. We have used multiple visual cues such as orientation, thickness, color, countable glyphs, and text to depict cross-dimensional information. We have added interactivity and hierarchical browsing to facilitate flexible exploration of the display: small areas can be scrutinized for details. Thus, our method is also easily extendable to visualize hierarchical information. Our glyph animations add an engaging aesthetic during interaction. Like many visualizations, Hi-D maps become less effective when a large number of dimensions stresses perceptual limits, but Hi-D maps may add clarity before those limits are reached.},
-  keywords={contribution:technique, family:other, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:low, alignment:linear}
 }
 
 @article{micallef2012assessing,
@@ -735,9 +733,8 @@ failed to replicate previous findings in that subjects’ accuracy was remarkabl
 benefit. A second experiment confirmed that simply adding a visualization to a textual Bayesian problem is of little help, even when
 the text refers to the visualization, but suggests that visualizations are more effective when the text is given without numerical values.
 We discuss our findings and the need for more such experiments to be carried out on heterogeneous populations of non-experts.},
-keywords={contribution:evaluation, family:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable}
+keywords={contribution:evaluation, representation:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable}
 }
-
 
 @article{symanzik2018unsinkable,
   title={The Unsinkable Titanic Data},
@@ -758,7 +755,7 @@ used for these data sets over the last century. Graph types used to portray the 
 dot plots, bar charts, mosaic plots, doubledecker plots, parallel set plots, Venn diagrams, balloon
 plots, nomograms, and tree diagrams to name only a few. In this article, we provide an overview of
 variants of the Titanic data set and resulting visualizations},
-keywords = {contribution:survey, family:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable}
+keywords = {contribution:survey, representation:not_applicable, data_type:not_applicable, dimensionality:not_applicable, cardinality:not_applicable}
 }
 
 @inproceedings{andrews1998information,
@@ -770,7 +767,7 @@ keywords = {contribution:survey, family:not_applicable, data_type:not_applicable
   url={https://ftp.isds.tugraz.at/pub/papers/ivis98.pdf},
   publisher={IEEE},
   series={InfoVis Symposium},
-  keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high},
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:radial},
   abstract={InfoSlices (cf. Sunburst diagrams). ABSTRACT: This paper presents work in progress on a new technique for visualising and manipulating large hierarchies. The information slices
 approach compactly visualises hierarchical structures using a series
 of semi-circular discs. The technique is described in the context of
@@ -798,7 +795,7 @@ is used widely in quality control settings to identify critical factors
 leading to failure or defects in a process. This article presents
 revisions that remedy problems with the chart and improve its
 usability in diagnostic settings.},
-keywords = {contribution:technique, family:bar, data_type:homogeneous, dimensionality:univariate, cardinality:high}
+keywords = {contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:univariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{karduni2020dubois,
@@ -813,7 +810,7 @@ keywords = {contribution:technique, family:bar, data_type:homogeneous, dimension
   doi={10.1145/3313831.3376365},
   url={https://arxiv.org/pdf/2001.03271.pdf},
   abstract={},
-  keywords={contribution:technique, family:bar, data_type:homogeneous, dimensionality:univariate, cardinality:high}
+  keywords={contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:univariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{borgo2013glyph,
@@ -829,7 +826,7 @@ keywords = {contribution:technique, family:bar, data_type:homogeneous, dimension
 	series={CGF},
 	url={http://diglib.eg.org/bitstream/handle/10.2312/conf.EG2013.stars.039-063/039-063.pdf?sequence=1&isAllowed=y},
 	abstract = {Survey of glyph-based visualisation techniques. ABSTRACT: This state of the art report focuses on glyph-based visualization, a common form of visual design where a data set is depicted by a collection of visual objects referred to as glyphs. Its major strength is that patterns of multivariate data involving more than two attribute dimensions can often be more readily perceived in the context of a spatial relationship, whereas many techniques for spatial data such as direct volume rendering find difficult to depict with multivariate or multi-field data, and many techniques for non-spatial data such as parallel coordinates are less able to convey spatial relationships encoded in the data. This report fills several major gaps in the literature, drawing the link between the fundamental concepts in semiotics and the broad spectrum of glyph-based visualization, reviewing existing design guidelines and implementation techniques, and surveying the use of glyph-based visualization in many applications.},
-	keywords={contribution:survey, family:glyph, data_type:heterogeneous, cardinality:low, dimensionality:multivariate}
+	keywords={contribution:survey, representation:glyph, data_type:heterogeneous, cardinality:low, dimensionality:multivariate}
 }
 
 @article{chernoff1973faces,
@@ -843,7 +840,7 @@ keywords = {contribution:technique, family:bar, data_type:homogeneous, dimension
   year={1973},
   publisher={Taylor \& Francis},
   series={Journal of The American Statistical Association},
-  keywords={contribution:technique, family:glyph, data_type:heterogeneous, dimensionality:multivariate, cardinality:low},
+  keywords={contribution:technique, representation:glyph, data_type:heterogeneous, dimensionality:multivariate, cardinality:low},
   doi={https://doi.org/10.1080/01621459.1973.10482434},
   url={https://www.jstor.org/stable/pdf/2284077.pdf}
 }
@@ -862,7 +859,7 @@ keywords = {contribution:technique, family:bar, data_type:homogeneous, dimension
   url={https://www.jstor.org/stable/pdf/2287565.pdf},
   abstract={Asymmetrical Faces, an extension to Chernoff Faces where separate variables are mapped to each side of the face. Can thus accommodate twice as many variables but is harder to read. ABSTRACT: Proceeding from the idea of Chernoff (1971, 1973) of representing multivariate data by faces, a new face is proposed in which the face parameters of the left and the right side can be varied separately. The new face can be applied in the same way as the usual Chernoff face (with 36 instead of 18 representable variables). Special appli cations of the new face are the representation of multivariate paired comparison and the visual search for outliers. Several examples illustrate these applications. Compared with Chernoffs face, the new construction is
  more realistic, degenerates less, and avoids as much as possible mutual influences of the different face parameters},
- keywords={contribution:technique, family:glyph, data_type:heterogeneous, dimensionality:multivariate, cardinality:low}
+ keywords={contribution:technique, representation:glyph, data_type:heterogeneous, dimensionality:multivariate, cardinality:low}
 }
 
 @inproceedings{coekin1969star,
@@ -871,9 +868,9 @@ keywords = {contribution:technique, family:bar, data_type:homogeneous, dimension
   booktitle={Proceedings International Symposium on Man-Machine Systems, IEEE Conference Record},
   volume={69},
   year={1969},
-  series={Other},
+  series={Other Conference},
   abstract={Star plot (aka radar chart, web chart, spider chart, star chart, cobweb chart, irregular polygon, polar chart, Kiviat diagram)},
-  keywords={contribution:technique, family:glyph, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate
+  keywords={contribution:technique, representation:glyph, alignment:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate
 }
 
 @article{shneiderman1992treemap,
@@ -897,7 +894,7 @@ a space-filling approach. However, the remainder of his presentation and
 most other discussions of trees focus on various node and edge representations. By contrast, this paper deals with a two-dimensional (2-d) space-filling
 approach in which each node is a rectangle whose area is proportional to
 some attribute such as node size},
-keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high}
+keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{balzer2005voronoi,
@@ -921,7 +918,7 @@ series={InfoVis Symposium},
 publisher={IEEE},
 doi={10.1109/INFVIS.2005.1532128},
 url={https://kops.uni-konstanz.de/bitstream/123456789/6212/2/Voronoi_Treemaps.pdf},
-keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
 }
 
 @inproceedings{wang2006circlepacking,
@@ -942,7 +939,7 @@ algorithm for tree structure is described. It provides a good
 overview for large data sets. It is easy to see all the
 branches and leaves of the tree. The new method has been
 applied to the visualization of file systems.},
-keywords={contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:univariate, cardinality:high} 
+keywords={contribution:technique, representation:space-filling, alignment:radial, data_type:homogeneous, dimensionality:univariate, cardinality:high} 
 }
 
 @article{krzywinski2009circos,
@@ -954,11 +951,11 @@ keywords={contribution:technique, family:tree, family:radial, data_type:homogene
   pages={1639--1645},
   year={2009},
   publisher={Cold Spring Harbor Lab},
-  series={Other},
+  series={Other Journal},
   doi={10.1101/gr.092759.109},
   url={https://genome.cshlp.org/content/19/9/1639.full.pdf},
   abstract={Circos (cf. chord diagrams, BiD-Chord, Parallel Sets). ABSTRACT: We created a visualization tool called Circos to facilitate the identification and analysis of similarities and differences arising from comparisons of genomes. Our tool is effective in displaying variation in genome structure and, generally, any other kind of positional relationships between genomic intervals. Such data are routinely produced by sequence alignments, hybridization arrays, genome mapping, and genotyping studies. Circos uses a circular ideogram layout to facilitate the display of relationships between pairs of positions by the use of ribbons, which encode the position, size, and orientation of related genomic elements. Circos is capable of displaying data as scatter, line, and histogram plots, heat maps, tiles, connectors, and text. Bitmap or vector images can be created from GFF-style data inputs and hierarchical configuration files, which can be easily generated by automated tools, making Circos suitable for rapid deployment in data analysis and reporting pipelines.},
-  keywords={contribution:technique, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, representation:other}
 }
 
 @inproceedings{humayoun2018bid,
@@ -967,7 +964,7 @@ keywords={contribution:technique, family:tree, family:radial, data_type:homogene
   booktitle={Proceedings of the 2018 International Conference on Advanced Visual Interfaces},
   pages={1--3},
   year={2018},
-  series={Other},
+  series={Other Conference},
   doi={https://doi.org/10.1145/3206505.3206570},
   url={https://dl.acm.org/doi/pdf/10.1145/3206505.3206570},
   abstract={BiD-Chord (cf. Circos/chord diagrams). ABSTRACT: In this paper, we propose an extension to the Chord diagram to show the relations between categorical values in two dimensions. We divide the Chord diagram into two equal slices, where the nodes in each slice represent the
@@ -977,7 +974,7 @@ slice to show the values of these categorical variables with
 respect to the categorical values in the other dimension.
 The proposed solution takes less space compared to using
 multiple charts for such scenarios.},
-keywords={contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate}
+keywords={contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, representation:other}
 }
 
 @article{liu2009attrmapview,
@@ -993,7 +990,7 @@ keywords={contribution:technique, family:radial, data_type:homogeneous, dimensio
   series={TVCG},
   doi={10.1109/TVCG.2009.180},
   url={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5290708&casa_token=sy2I3lQaQOQAAAAA:5sgJ0FEo5ZVFOY6NiOvSqKH9Rbkjp6GfAhISpaqFrYPIx9D2w3PZrNe8P1TxpQIcSK09Qroy},
-  keywords={contribution:technique, family:tree, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:space-filling, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 @article{cleveland1984dotplot,
   title={Graphical methods for data presentation: Full scale breaks, dot charts, and multibased logging},
@@ -1008,7 +1005,7 @@ keywords={contribution:technique, family:radial, data_type:homogeneous, dimensio
   series={The American Statistician},
   doi={https://doi.org/10.2307/2683401},
   url={https://www.jstor.org/stable/2683401},
-  keywords={contribution:technique, family:other, data_type:homogeneous, dimensionality:bivariate, cardinality:high}
+  keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:bivariate, cardinality:high, alignment:linear}
 }
 
 @article{upton2000cobweb,
@@ -1026,10 +1023,10 @@ marginal table. In this paper the widths of the lines are proportional to the sq
 residuals corresponding to the fit of the independence model to the marginal table. Lines are
 shaded to indicate the signs of the residuals. The method can be used with variables of mixed types
 and for conditional independence models.},
-series={Other},
+series={Other Journal},
 doi={https://doi.org/10.1111/1467-9884.00221},
 url={https://www.researchgate.net/profile/Graham-Upton/publication/233968513_Cobweb_diagrams_for_multi-waycontingency_tables/links/5cee6ae8a6fdcc3db82e806f/Cobweb-diagrams-for-multi-way-contingency-tables.pdf},
-keywords={contribution:technique, family:other, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:metric_dependent}
 }
 
 @inproceedings{huang2009treemapbar,
@@ -1043,7 +1040,7 @@ keywords={contribution:technique, family:other, data_type:homogeneous, dimension
   doi={10.1109/IV.2009.22},
   url={https://opus.lib.uts.edu.au/bitstream/10453/10715/1/2009000966OK.pdf},
   abstract={TreeMapBar. ABSTRACT: Bar chart is a very common and simple graph that is mainly used to visualize simple x, y plots of data for numerical comparisons by partitioning the categorical data values into bars and typically limited to operate on highly aggregated dataset. In today's growing complexity of business data with multi dimensional attributes using bar chart itself is not sufficient to deal with the representation of such business dataset and it also not utilizes the screen space efficiently. Nevertheless, bar chart is still useful because of its shape create strong visual attention to users at first glance than other visualization techniques. In this article, we present a treemap bar chart + tablelens interaction technique that combines the treemap and bar chart visualizations with a tablelens based zooming technique that allows users to view the detail of a particular bar when the density of bars increases. In our approach, the capability of the original bar chart and treemaps for representing complex business data is enhanced and the utilization of display space is also optimized.},
-  keywords={contribution:technique, family:bar, family:tree, data_type:homogeneous, dimensionality:bivariate, cardinality:high}
+  keywords={contribution:technique, representation:size-encoding, representation:space-filling, data_type:homogeneous, dimensionality:bivariate, cardinality:high, alignment:linear}
 }
 
 @inproceedings{alsallakh2011contingency,
@@ -1057,7 +1054,7 @@ keywords={contribution:technique, family:other, data_type:homogeneous, dimension
   doi={10.2312/PE/EuroVAST/EuroVA11/053-056},
   url={http://dx.doi.org/10.2312/PE/EuroVAST/EuroVA11/053-056},
   abstract={Contingency Wheel (see also ContingencyWheel++). ABSTRACT: We present the Contingency Wheel, a visual method for finding and analyzing associations in a large n<m contingency table with m < 100 and n being two to three orders of magnitude larger than m. The method is demonstrated on a large table from the Book-Crossing dataset, which counts the number of ratings each book received from each country. It enables finding books that received a disproportionately high number of ratings from a specific country. It further allows to visually analyze what these books have in common, and with which countries they are also highly associated. Pairs of similar countries can further be identified (in the sense that many books are associated with both countries). Compared with existing visual methods, our approach enables analyzing and gaining insight into larger tables.},
-  keywords={contribution:technique, family:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high}
+  keywords={contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high, alignment:metric_dependent}
 }
 
 @article{hothorn2006unbiased,
@@ -1090,17 +1087,17 @@ node positive breast cancer survival and mammography experience are re-analyzed}
   series={Journal of Computational and Graphical statistics},
   doi={https://doi.org/10.1198/106186006X133933},
   url={https://research.wu.ac.at/ws/portalfiles/portal/38078848/document.pdf},
-  keywords={contribution:technique, family:tree, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, representation:other, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
 }
 
 @book{benzecri1990correspondence,
   title={Correspondence Analysis Handbook},
-  abstract={(Simple) Correspondence Analysis (CA) projects categories into a 2D space. See also Patro et al.'s (2003) work, which incorporates CA into a framework for mapping of diverse data types.},
+  abstract={(Simple) Correspondence Analysis (CA) projects categories into a 2D space. Typically visualised using CA maps or biplots. See also Patro et al.'s (2003) work, which incorporates CA into a framework for mapping of diverse data types.},
   author={Benz{\'e}cri, J-P},
   year={1990},
   publisher={Marcel Dekker},
   series={Book},
-  keywords={contribution:technique, family:projection, data_type:homogeneous, dimensionality:bivariate, cardinality:high}
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:bivariate, cardinality:high, alignment:linear, projection_representation, projection_transformation}
 }
 
 @article{rosario2004mapping,
@@ -1115,7 +1112,7 @@ node positive breast cancer survival and mammography experience are re-analyzed}
   series={SAGE Information Visualization},
   doi={10.1057/palgrave.ivs.9500072},
   url={https://journals.sagepub.com/doi/pdf/10.1057/palgrave.ivs.9500072},
-  keywords={contribution:technique, family:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate},
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear},
   abstract={Similar to MCA. Similar categories are positioned close to each other. ABSTRACT: Data sets with a large numbers of nominal variables, including some with large
 number of distinct values, are becoming increasingly common and need to be
 explored. Unfortunately, most existing visual exploration tools are designed to
@@ -1150,10 +1147,10 @@ data sets using a variety of measures.}
   pages={91--119},
   year={1985},
   publisher={Springer},
-  series={Other},
-  doi={https://doi.org/10.1007/BF022941510},
+  series={Psychometrika},
+  doi={10.1007/BF022941510},
   abstract={Several different methods for quantification, including Multiple Correspondence Analysis (MCA), Optimal Scaling/Scoring, Homogeneity Analysis and Scalogram Analysis, all lead to the same equation and can thus be considered the same technique. They show pairwise relations for multiple variables and are not suitable for a large number of categories. Can often be improved using adjusted inertia. See also Greenacre and Blasius, 2006; D’Enza and Greenacre 2012. ABSTRACT: We discuss a variety of methods for quantifying categorical multivariate data. These methods have been proposed in many different countries, by many different authors, under many different names. In the first major section of the paper we analyze the many different methods and show that they all lead to the same equations for analyzing the same data. In the second major section of the paper we introduce the notion of a duality diagram, and use this diagram to synthesize the many superficially different methods into a single method.},
-  keywords={contribution:technique, family:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
 }
 
 @inproceedings{johansson2008quant,
@@ -1164,7 +1161,7 @@ data sets using a variety of measures.}
   year={2008},
   organization={IEEE},
   series={IV},
-  abstract={Data sets containing a combination of categorical and
+  abstract={See also 2x MiDAVisT (Mixed Data Analysis Visualization Tool) papers. ABSTRACT: Data sets containing a combination of categorical and
 continuous variables (mixed data sets) are difficult to analyse
 since no generalized similarity measure exists for categorical
 variables. Quantification of categorical variables
@@ -1181,7 +1178,7 @@ efficiency of the approach is demonstrated using two mixed
 data sets.},
   doi = {10.1109/IV.2008.33},
   url={https://www.researchgate.net/profile/Mikael-Jern/publication/4358668_Interactive_Quantification_of_Categorical_Variables_in_Mixed_Data_Sets/links/00b7d51e559e1e9d1e000000/Interactive-Quantification-of-Categorical-Variables-in-Mixed-Data-Sets.pdf},
-  keywords={contribution:technique, family:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+  keywords={contribution:technique, representation:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
 }
 
 @book{greenacre2017correspondence,
@@ -1192,7 +1189,7 @@ data sets.},
   series={Book},
   abstract={Visualisations for CA, including CA Maps and CA Biplots.},
   doi={https://doi.org/10.1201/9781315369983},
-  keywords={contribution:technique,family:projection,data_type:homogeneous,dimensionality:bivariate, cardinality:moderate}
+  keywords={contribution:technique,representation:projection,projection_transformation,projection_representation,data_type:homogeneous,dimensionality:bivariate, cardinality:moderate, alignment:linear}
 }
 
 @inproceedings{johansson2009exp,
@@ -1201,7 +1198,7 @@ data sets.},
   booktitle={Proceedings of the acm sigkdd workshop on visual analytics and knowledge discovery: Integrating automated analysis with interactive exploration},
   pages={21--29},
   year={2009},
-  abstract={For categorical data there does not exist any similarity measure
+  abstract={MiDAVisT (Mixed Data Analysis Visualization Tool), see also other papers by the same authors. ABSTRACT: For categorical data there does not exist any similarity measure
 which is as straight forward and general as the numerical
 distance between numerical items. Due to this it is often difficult
 to analyse data sets including categorical variables or
@@ -1221,7 +1218,7 @@ process and of the features of the application is demonstrated
 through a case scenario.},
 doi={https://doi.org/10.1145/1562849.1562852},
 series={SIGKDD},
-keywords={contribution:technique, family:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords={contribution:technique, representation:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
 }
 
 @article{cuadras2006ca,
@@ -1233,7 +1230,7 @@ keywords={contribution:technique, family:projection, data_type:heterogeneous, di
   pages={447--459},
   year={2006},
   publisher={Taylor \& Francis},
-  series={Other},
+  series={Communications in Statistics-Simulation and Computation},
   abstract={Compares CA, Hellinger distance and log ratio approaches, and concludes that CA is the best. ABSTRACT: We first compare correspondence analysis, which uses chi-square distance, and an
 alternative approach using Hellinger distance, for representing categorical data
 in a contingency table. We propose a coefficient which globally measures the
@@ -1243,7 +1240,7 @@ contribution of the dimensions to the difference between the two representations
 We also make comparisons with the logratio approach based on compositional
 data. These three methods of representation can produce quite similar results. Two
 illustrative examples are given.},
-keywords={contribution:evaluation, family:projection, data_type:homogeneous}
+keywords={contribution:evaluation, representation:projection, projection_transformation, data_type:homogeneous}
 }
 
 @inproceedings{shen2008rmap,
@@ -1253,8 +1250,8 @@ keywords={contribution:evaluation, family:projection, data_type:homogeneous}
   pages={992--998},
   year={2008},
   organization={Springer},
-  series={Other},
-  keywords={contribution:technique, family:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate},
+  series={Other Conference},
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate},
   abstract={R-map. ABSTRACT: In this paper, we propose a framework that maps categorical data into
 a numerical data space via a reference set, aiming to make the existing numerical
 clustering algorithms directly applicable on the generated image data set as well
@@ -1288,7 +1285,7 @@ emit events at the same time); (2) order the clusters;
 and (3) order the categorical values within each cluster. We demonstrate the benefits of this approach
 by applying it to scatter plots and parallel coordinate
 plots of event data collected from a corporate Intranet.},
-keywords={contribution:technique, family:projection, data_type:homogeneous}
+keywords={contribution:ordering_algorithm, representation:projection, data_type:homogeneous}
 }
 
 @inproceedings{alsakran2014using,
@@ -1317,7 +1314,7 @@ keywords={contribution:technique, family:projection, data_type:homogeneous}
 to order categorical values. The focus of this paper is on
 constructing such orderings efficiently without compromising
 their visual quality},
-keywords={contribution:technique, data_type:homogeneous},
+keywords={contribution:ordering_algorithm, data_type:homogeneous},
 publisher={ACM}
 }
 
@@ -1327,7 +1324,7 @@ publisher={ACM}
   booktitle={Proceedings of the 2011 Visual Information Communication-International Symposium},
   pages={1--10},
   year={2011},
-  series={Other},
+  series={Other Conference},
   abstract={Large data repositories such as electronic journal databases,
 document corpora and wikis often organise their content into
 categories. Librarians, researchers, and interested users who
@@ -1367,7 +1364,7 @@ the data set and as a compact overview of attribute-related facts. A second view
 a Voronoi diagram whose cells can be interactively merged to discover salient attributes, cluster values and bin categories. Bar
 chart legends help assigning meaning to the 2D view axes and 2D point clusters. We illustrate our techniques with real-world
 application data.},
-keywords={contribution:technique, family:projection, data_type:homogeneous}
+keywords={contribution:technique, projection_representation, representation:projection, data_type:homogeneous}
 }
 
 @article{cibulkova2022review,
@@ -1378,7 +1375,7 @@ keywords={contribution:technique, family:projection, data_type:homogeneous}
   number={4},
   pages={396-408},
   year={2022},
-  series={Other},
+  series={Statistika},
   doi={10.54694/stat.2022.4},
   abstract={The paper focuses on visualization methods suitable for outcomes of cluster analysis of categorical data (nominal data, specifically). Since nominal data have no inherent order, their graphical representation is often challenging or very limited. This paper aims to provide a list of common visualization methods in the domain of cluster analysis of objects characterized by nominal variables. Firstly, the various plot types (such as clustering scatter plot, dendrogram, icicle plot) for cluster analysis are presented, and their suitability for presenting clusters of nominal data is discussed. Then, we study approaches of sorting nominal values on chart axes in such a way that would improve visualization of the data. Lastly, we introduce a simple alternative to cluster scatter plot for nominal data, that makes the final visualization of clustering solution more efficient since the pattern and groups in data are now more apparent. The suggested method is demonstrated in illustrative examples.},
   keywords={contribution:survey, data_type:homogeneous}
@@ -1396,7 +1393,7 @@ keywords={contribution:technique, family:projection, data_type:homogeneous}
   series={The American Statistician},
   doi={https://doi.org/10.1080/00031305.1995.10476134},
   abstract={Pressure and energy models. ABSTRACT: A dynamic conceptual model for categorical data is described that likens observations to gas molecules in a pressure chamber. In this physical model frequency corresponds to pressure, and fitting a statistical model by maximum likelihood corresponds to minimizing energy or balancing of forces. The model provides neat explanations of many results for categorical data, extends readily to multiway tables, and provides a rationale for the graphic representation of counts by area or visual density.},
-  keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @inproceedings{hofmann2000association,
@@ -1431,7 +1428,7 @@ helps the user to understand the relationship between related
 association rules.},
 series={SIGKDD},
 doi={10.1145/347090.347133},
-keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate}
+keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{li2022hitailor,
@@ -1447,7 +1444,7 @@ keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensio
   doi={10.1109/TVCG.2022.3209354},
   url={https://deardeer.github.io/pub/VIS2022_HiTailor.pdf},
   abstract={HiTailor. ABSTRACT: Tabular visualization techniques integrate visual representations with tabular data to avoid additional cognitive load caused by splitting users' attention. However, most of the existing studies focus on simple flat tables instead of hierarchical tables, whose complex structure limits the expressiveness of visualization results and affects users' efficiency in visualization construction. We present HiTailor, a technique for presenting and exploring hierarchical tables. HiTailor constructs an abstract model, which defines row/column headings as biclustering and hierarchical structures. Based on our abstract model, we identify three pairs of operators, Swap/Transpose, ToStacked/ToLinear, Fold/Unfold, for transformations of hierarchical tables to support users' comprehensive explorations. After transformation, users can specify a cell or block of interest in hierarchical tables as a TableUnit for visualization, and HiTailor recommends other related TableUnits according to the abstract model using different mechanisms. We demonstrate the usability of the HiTailor system through a comparative study and a case study with domain experts, showing that HiTailor can present and explore hierarchical tables from different viewpoints. HiTailor is available at https://github.com/bitvis2021/HiTailor.},
-  keywords ={contribution:technique, family:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate}
+  keywords ={contribution:technique, representation:table, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear}
 }
 
 @article{pilhofer2012comparing,
@@ -1463,7 +1460,7 @@ keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensio
   doi={10.1109/TVCG.2012.207},
   url={https://web.cse.ohio-state.edu/~machiraju.1/teaching/CSE5544/Visweek2012/infovis/papers/pilhoefer.pdf},
   abstract={Classifying a set of objects into clusters can be done in numerous ways, producing different results. They can be visually compared using contingency tables [27], mosaicplots [13], fluctuation diagrams [15], tableplots [20] , (modified) parallel coordinates plots [28], Parallel Sets plots [18] or circos diagrams [19]. Unfortunately the interpretability of all these graphical displays decreases rapidly with the numbers of categories and clusterings. In his famous book A Semiology of Graphics [5] Bertin writes “the discovery of an ordered concept appears as the ultimate point in logical simplification since it permits reducing to a single instant the assimilation of series which previously required many instants of study”. Or in more everyday language, if you use good orderings you can see results immediately that with other orderings might take a lot of effort. This is also related to the idea of effect ordering [12], that data should be organised to reflect the effect you want to observe. This paper presents an efficient algorithm based on Bertin's idea and concepts related to Kendall's t [17], which finds informative joint orders for two or more nominal classification variables. We also show how these orderings improve the various displays and how groups of corresponding categories can be detected using a top-down partitioning algorithm. Different clusterings based on data on the environmental performance of cars sold in Germany are used for illustration. All presented methods are available in the R package extracat which is used to compute the optimized orderings for the example dataset.},
-  keywords={contribution:technique, data_type:homogeneous}
+  keywords={contribution:ordering_algorithm, data_type:homogeneous}
 }
 
 @article{seo2007exploratory,
@@ -1475,7 +1472,7 @@ keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensio
   pages={287--314},
   year={2007},
   publisher={Taylor \& Francis},
-  series={Other},
+  series={International Journal of Human-Computer Interaction},
   doi={https://doi.org/10.1080/10447310701702519},
   url={https://www.tandfonline.com/doi/pdf/10.1080/10447310701702519},
   abstract={Multidimensional data sets often include categorical information. When most dimensions have categorical information, clustering the data set as a whole can reveal interesting patterns in the data set. However, the categorical information is often more useful as a way to partition the data set: gene expression data for healthy versus diseased samples or stock performance for common, preferred, or convertible shares. We present novel ways to utilize categorical information in exploratory data analysis by enhancing the rank-by-feature framework. First, we present ranking criteria for categorical variables and ways to improve the score overview. Second, we present a novel way to utilize the categorical information together with clustering algorithms. Users can partition the data set according to categorical information vertically or horizontally, and the clustering result for each partition can serve as new categorical information. We report the results of a longitudinal case study with a biomedical research team, including insights gained and potential future work.},
@@ -1488,7 +1485,7 @@ keywords={contribution:technique, family:mosaic, data_type:homogeneous, dimensio
   booktitle={Proceedings of the fifth ACM conference on Digital libraries},
   pages={57--66},
   year={2000},
-  series={Other},
+  series={Other Conference},
   publisher={ACM},
   url={https://dl.acm.org/doi/abs/10.1145/336597.336637},
   doi={https://doi.org/10.1145/336597.336637},
@@ -1525,7 +1522,7 @@ keywords={contribution:technique, data_type:homogeneous}
   series={Journal of Computational and Graphical Statistics},
   doi={https://doi.org/10.1080/10618600.1999.10474821},
   abstract={We consider visual methods based on mosaic plots for interpreting and modeling categorical data. Categorical data are most often modeled using loglinear models. For certain loglinear models, mosaic plots have unique shapes that do not depend on the actual data being modeled. These shapes reflect the structure of a model, defined by the presence and absence of particular model coefficients. Displaying the expected values of a loglinear model allows one to incorporate the residuals of the model graphically and to visually judge the adequacy of the loglinear fit. This procedure leads to stepwise interactive graphical modeling of loglinear models. We show that it often results in a deeper understanding of the structure of the data. Linking mosaic plots to other interactive displays offers additional power that allows the investigation of more complex dependence models than provided by static displays.},
-  keywords={contribution:technique, family:mosaic, data_type:homogeneous}
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, alignment:linear}
 }
 
 @inproceedings{wittenburg2001parallel,
@@ -1533,11 +1530,11 @@ keywords={contribution:technique, data_type:homogeneous}
   author={Wittenburg, Kent and Lanning, Tom and Heinrichs, Michael and Stanton, Michael},
   booktitle={Proceedings of the 14th annual ACM symposium on User interface software and technology},
   pages={51--60},
-  series={Other},
+  series={Other Conference},
   year={2001},
   doi={https://doi.org/10.1145/502348.502357},
   url={https://researchgate.net/profile/Kent-Wittenburg/publication/220876848_Parallel_bargrams_for_consumer-based_information_exploration_and_choice/links/0deec515ae7b0110c8000000/Parallel-bargrams-for-consumer-based-information-exploration-and-choice.pdf},
-  abstract={EZChooser. ABSTRACT: In this paper we introduce multidimensional visualization
+  abstract={EZChooser (cf. Sifer, 2006, User Interfaces for the Exploration of Hierarchical Multi-dimensional Data). ABSTRACT: In this paper we introduce multidimensional visualization
 and interaction techniques that are an extension to related
 work in parallel histograms and dynamic querying. Bargrams
 are, in effect, histograms whose bars have been
@@ -1552,7 +1549,7 @@ has been deployed for car shopping. Evaluations of the
 techniques include an experiment indicating that trained
 users prefer EZChooser over static tables for choice tasks
 among sets of 50 items with 7-9 attributes.},
-keywords={contribution:technique, family:bar, data_type:heterogeneous, dimensionality:multivariate, cardinality:high}
+keywords={contribution:technique, representation:size-encoding, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
 
 @misc{kosara2007nary,
@@ -1560,27 +1557,12 @@ keywords={contribution:technique, family:bar, data_type:heterogeneous, dimension
   title = {{Autism Diagnosis Accuracy - Visualization Redesign}},
   abstract = {N-ary tree with combined frequencies. The lower part is an n-ary tree whose branches represent orthogonal combinations of categories; the upper part encodes the frequency of the combinations. Could be greatly enhanced with interaction: sorting branches, adding/removing/reordering variables, expanding/collapsing branches, removing a response variable and then encoding its frequencies as a grouped bar chart at the top, highlighting/querying categories of interest, including with user-defined markings (colours, shapes, textures, etc. Could rotate 90 degrees to utilise screen space more effectively.).
   },
-  keywords = {contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:low},
+  keywords = {contribution:technique, representation:other, data_type:homogeneous, dimensionality:multivariate, cardinality:low},
   series = {Other},
   howpublished = "\url{https://eagereyes.org/blog/2007/autism-diagnosis-accuracy}",
   year = {2007}, 
   url = {https://eagereyes.org/blog/2007/autism-diagnosis-accuracy},
   note = {[Online; accessed 13-October-2023]}
-}
-
-@Inbook{rahlf2019cat,
-author={Rahlf, Thomas},
-title={Categorical Data},
-bookTitle={Data Visualisation with R: 111 Examples},
-year={2019},
-publisher={Springer},
-series={Other},
-pages={95--190},
-abstract={The presentation of simple frequencies or of parameters such as percentages or averages by bar and column charts is certainly one of the most widely used visualisations. Therefore, this is where we want to start. Sometimes though, one might want to also plot parameters that are located on a scale between two statements. In such cases, the use of a profile plot makes sense. If there are a lot of attributes in a bar chart and/or you want to plot several variables simultaneously, then a different illustration form is needed. In such cases, a dot chart comes in handy. The next section explains regular pie charts, but also gives examples of spie charts, radial polygons, and radial column charts. ``Chart tables'' refers to illustration types in which the arrangement of information has table character. We start with suggestions for two variants of so-called Gantt-charts, then follow with examples for a bump chart, a heat map, a mosaic plot and two examples for tree maps.},
-isbn={978-3-030-28444-2},
-doi={10.1007/978-3-030-28444-2_6},
-url={https://doi.org/10.1007/978-3-030-28444-2_6},
-keywords={contribution:survey, data_type:homogeneous}
 }
 
 @book{friendly2015discrete,
@@ -1589,7 +1571,7 @@ keywords={contribution:survey, data_type:homogeneous}
   volume={120},
   year={2015},
   publisher={CRC Press},
-  keywords={contribution:textbook, data_type:homogeneous},
+  keywords={contribution:textbook, data_type:heterogeneous},
   url={http://ddar.datavis.ca/},
   series={Book},
   abstract={Discrete Data Analysis with R: Visualization and Modeling Techniques for Categorical and Count Data presents an applied treatment of modern methods for the analysis of categorical data, both discrete response data and frequency data. It explains how to use graphical methods for exploring data, spotting unusual features, visualizing fitted models, and presenting results.
@@ -1620,10 +1602,10 @@ The first part of the book contains introductory material on graphical methods f
   pages={243--262},
   year={2005},
   publisher={Elsevier},
-  series={Other},
+  series={Other Journal},
   doi={https://doi.org/10.1016/j.datak.2004.09.001},
   url={https://staff.csie.ncu.edu.tw/chia/pub/dawak135.pdf},
-  abstract={Clustering is an important data mining problem. However, most earlier work on clustering focused on
+  abstract={Introduces the CDCS clustering approach. ABSTRACT: Clustering is an important data mining problem. However, most earlier work on clustering focused on
 numeric attributes which have a natural ordering to their attribute values. Recently, clustering data with
 categorical attributes, whose attribute values do not have a natural ordering, has received more attention.
 A common issue in cluster analysis is that there is no single correct answer to the number of clusters, since
@@ -1632,7 +1614,7 @@ users can decide a proper clustering parameters. In this paper, a new clustering
 (Categorical Data Clustering with Subjective factors) is introduced, where a visualization tool for clustered
 categorical data is developed such that the result of adjusting parameters is instantly reflected. The experiment
 shows that CDCS generates high quality clusters compared to other typical algorithms.},
-keywords={contribution:technique, family:projection, data_type:homogeneous, dimensionality:multivariate}
+keywords={contribution:ordering_algorithm, data_type:homogeneous, dimensionality:multivariate}
 }
 
 @article{dang2010stacking,
@@ -1647,7 +1629,7 @@ keywords={contribution:technique, family:projection, data_type:homogeneous, dime
   doi={10.1109/TVCG.2010.197},
   series={TVCG},
   abstract={Categorical Stacked Parallel Coordinate Plots (3D display). ABSTRACT: An ongoing challenge for information visualization is how to deal with over-plotting forced by ties or the relatively limited visual field of display devices. A popular solution is to represent local data density with area (bubble plots, treemaps), color (heatmaps), or aggregation (histograms, kernel densities, pixel displays). All of these methods have at least one of three deficiencies: 1) magnitude judgments are biased because area and color have convex downward perceptual functions, 2) area, hue, and brightness have relatively restricted ranges of perceptual intensity compared to length representations, and/or 3) it is difficult to brush or link to individual cases when viewing aggregations. In this paper, we introduce a new technique for visualizing and interacting with datasets that preserves density information by stacking overlapping cases. The overlapping data can be points or lines or other geometric elements, depending on the type of plot. We show real-dataset applications of this stacking paradigm and compare them to other techniques that deal with over-plotting in high-dimensional displays.},
-  keywords={contribution:technique, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+  keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
 }
 
 @inproceedings{dennig2021parsetnostics,
@@ -1665,7 +1647,7 @@ metrics, we ensure their distinctiveness. Further, we evaluate the clutter reduc
 datasets from previous publications using Parallel Sets measuring and comparing their respective properties. Our results show
 that ParSetgostics facilitates multi-dimensional analysis of categorical data by automatically providing optimized Parallel Set
 designs with a clutter reduction of up to 81% compared to the originally proposed Parallel Sets visualizations.},
-  keywords={contribution:evaluation, family:tree, data_type:homogeneous, dimensionality:multivariate, cardinality:high},
+  keywords={contribution:evaluation, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear},
   series={CGF},
   doi={https://doi.org/10.1111/cgf.14314},
   url={https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14314}
@@ -1674,16 +1656,16 @@ designs with a clutter reduction of up to 81% compared to the originally propose
 @article{hsu2006som,
   title={Generalizing self-organizing map for categorical data},
   author={Hsu, Chung-Chian},
-  journal={IEEE transactions on Neural Networks},
+  journal={IEEE Transactions on Neural Networks},
   volume={17},
   number={2},
   pages={294--304},
   year={2006},
   publisher={IEEE},
-  series={Other},
+  series={IEEE Transactions on Neural Networks},
   doi={10.1109/TNN.2005.863415},
   url={https://www.comp.nus.edu.sg/~rudys/arnie/tnn-som-categoricaldata.pdf},
-  keywords={contribution:technique, family:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high},
+  keywords={contribution:technique, representation:projection, data_type:heterogeneous, dimensionality:multivariate, cardinality:high},
   abstract={Self-organizing maps (SOM) for categorical data. ABSTRACT: The self-organizing map (SOM) is an unsupervised
 neural network which projects high-dimensional data onto a
 low-dimensional grid and visually reveals the topological order of
@@ -1707,25 +1689,552 @@ conducted, and the results demonstrated the effectiveness of the
 generalized SOM model.}
 }
 
-@article{jin2023rit,
+@article{jin2024rit,
   title={Radial Icicle Tree (RIT): Node Separation and Area Constancy},
   author={Jin, Yuanzhe and de Jong, Tim JA and Tennekes, Martijn and Chen, Min},
-  journal={arXiv preprint arXiv:2307.10481},
-  year={2023},
-  url={https://arxiv.org/pdf/2307.10481.pdf},
-  series={Other},
   abstract={Radial Icicle Tree (RIT, cf. sunburst chart and icicle plot). ABSTRACT: Icicles and sunbursts are two commonly-used visual representations of trees. While icicle trees can map data values faithfully to rectangles of different sizes, often some rectangles are too narrow to be noticed easily. When an icicle tree is transformed into a sunburst tree, the width of each rectangle becomes the length of an annular sector that is usually longer than the original width. While sunburst trees alleviate the problem of narrow rectangles in icicle trees, it no longer maintains the consistency of size encoding. At different tree depths, nodes of the same data values are displayed in annular sections of different sizes in a sunburst tree, though they are represented by rectangles of the same size in an icicle tree. Furthermore, two nodes from different subtrees could sometimes appear as a single node in both icicle trees and sunburst trees. In this paper, we propose a new visual representation, referred to as radial icicle tree (RIT), which transforms the rectangular bounding box of an icicle tree into a circle, circular sector, or annular sector while introducing gaps between nodes and maintaining area constancy for nodes of the same size. We applied the new visual design to several datasets. Both the analytical design process and user-centered evaluation have confirmed that this new design has improved the design of icicles and sunburst trees without introducing any relative demerit.},
-  keywords={contribution:technique, family:tree, family:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+  keywords={contribution:technique, representation:space-filling, alignment:radial, data_type:homogeneous, dimensionality:multivariate, cardinality:low}
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Radial Icicle Tree (RIT): Node Separation and Area Constancy}, 
+  year={2024},
+  volume={30},
+  number={1},
+  pages={251-261},  
+  doi={10.1109/TVCG.2023.3327178},
+  series={TVCG}
 }
 
 @misc{brodbeck2019highd,
   author = {Brodbeck, Dominique and Girardin, Luc},
   title = {High-D},
   abstract = {High-D 'Categories' view - linked bar charts for categorical data (can select/highlight and filter). Can also see corresponding records in the 'Table' view. High-D was developed by Macrofocus and was formerly known as InfoScope.},
-  keywords = {contribution:technique, family:bar, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate},
+  keywords = {contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear},
   howpublished = "\url{https://www.high-d.com/}",
   year = {2019},
   url = {https://www.high-d.com/},
   note = {[Online; accessed 13-October-2023]},
-  series = {Other}
+  series = {Other Software}
 }
+
+@article{allen2002trilinear,
+  title={Using and Interpreting the Trilinear Plot},
+  author={Allen, Terry},
+  abstract = {Trilinear plot (see also Snee, 1974). Supports one variable with three mutually exclusive categories. Statistical graphics are powerful tools for analyzing research and policy data. They have been used extensively for centuries to gain meaningful insights into data structures that would otherwise be difficult to discern. Unfortunately, many investigators underutilize graphical procedures when they examine data. This article proposes a visual approach to empirical investigation by demonstrating the ease with which graphics can make hidden patterns jump off the page. More specifically, it encourages the use of the trilinear plot, an effective analytic tool first introduced to Chance readers by Wainer (1995). The trilinear plot has been used successfully in political science, chemistry, and geology. Examples presented here show that it could also benefit policy makers, industry statisticians, and researchers in other fields.},
+  keywords = {contribution:technique, representation:other, data_type:homogeneous, dimensionality:univariate, cardinality:low, alignment:linear},
+  series = {Chance},
+  doi = {10.1080/09332480.2002.10554809},
+  journal={Chance},
+  volume={15},
+  number={3},
+  pages={29--35},
+  year={2002},
+  publisher={Taylor \& Francis}
+}
+
+@article{fienberg1970tetrahedron,
+  title={The geometry of a two by two contingency table},
+  abstract={Tetrahedron. In this article, we discuss ideas about two by two contingency tables in terms of the geometry of the three dimensional simplex. In particular, we derive the loci of points corresponding to certain classes of two by two tables. We relate the geo- inetry to a discussion of the mean square contingency, which is also associated with rejection regions for the chi-square goodness of fit test for independence.},
+  keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:bivariate, cardinality:very_low, alignment:other}
+  author={Fienberg, Stephen E and Gilbert, John P},
+  journal={Journal of the American Statistical Association},
+  volume={65},
+  number={330},
+  pages={694--701},
+  year={1970},
+  series={Journal of the American Statistical Association},
+  doi={10.1080/01621459.1970.10481117},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{huh2004linemosaic,
+  title={Line mosaic plot: Algorithm and implementation},
+  abstract = {Line mosaic plot. Conventional mosaic plot is to graphically represent contingency tables by tiles whose size is proportional to the cell count. The plot is informative when we are well trained reading this. This paper introduces a new approach for mosaic plot called linear mosaic plot which uses lines instead of tiles to represent the size of the cells in contingency tables. We also present a general straightforward algorithm to construct the plot directly from the data set. We demonstrate the e®ectiveness of this tool for visual inference using a real data set.},
+  keywords = {contribution:technique, representation:size-encoding, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:linear},
+  author={Huh, Moon Yul},
+  booktitle={COMPSTAT 2004—Proceedings in Computational Statistics: 16th Symposium Held in Prague, Czech Republic, 2004},
+  pages={277--285},
+  year={2004},
+  organization={Springer},
+  series={Other Conference}
+}
+
+@inproceedings{vivacqua2008nrv,
+  title={NRV: Using Nested Rings to Interact with Categorical Data},
+  abstract={Nested Rings (NRV).	Graphic visualizations provide a useful means for individuals to analyze large sets of data. There are many types of graphs such as line graphs, pie charts and bar graphs, focused on displaying continuous values. Additionally, a number of interactive visualization solutions have been proposed that enable users to more fully explore data, updating the visualization as the users alter parameters. These have also focused on continuous data domains. To date, few solutions exist for exploring the interrelations of categorical variables, i.e., variables for which the domain can be defined as a set of possible values. In this paper, we present the NRV, a nested ring visualization graph that improves the expressivity of categoric variable graphs while maintaining user control to query data. Our work is in its initial stages, but we believe the approach will improve understanding of correlations between variables when there are large differences in values.},
+  keywords={contribution:technique, representation:space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:radial},
+  author={Vivacqua, A. S. and Garcia, A. C. B.},
+  booktitle={Proceedings of the IADIS International Conference on Interfaces and Human Computer Interaction},
+  pages={85--92},
+  year={2008},
+  url={https://www.iadisportal.org/digital-library/nrv-using-nested-rings-to-interact-with-categorical-data},
+  series={IADIS}
+}
+
+@inproceedings{shiraishi2009gr,
+  title={A tool for analyzing categorical data visually with granular representation},
+  abstract={Granular Representation (GR), inspired by Dust&Magnet and reminiscent of a beeswarm plot. Categorical data appears in various places, and dealing with it has been a major concern in analysis fields. However, representing not only global trends but also local trends of data simultaneously by conventional techniques is difficult. We propose a visualization method called “granular representation” for analyzing categorical data visually. Our approach visually represents data as a set of objects and allows intuitive analysis instead of the traditional way with tables of numbers. We developed a tool by integrating granular representation and bar charts. The effectiveness of the tool is demonstrated using real data about media consumption. }
+  keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:multivariate, cardinality:moderate, alignment:metric_dependent},
+  author={Shiraishi, Kousuke and Misue, Kazuo and Tanaka, Jiro},
+  booktitle={Human Interface and the Management of Information. Information and Interaction: Symposium on Human Interface 2009, Held as part of HCI International 2009, San Diego, CA, USA, July 19-24, 2009, Proceedings, Part II},
+  pages={342--351},
+  year={2009},
+  organization={Springer},
+  url={https://www.cs.tsukuba.ac.jp/~misue/misue-publications/pdf/shiraishi-hcii2009-tool.pdf},
+  series={Other Conference}
+}
+
+@inproceedings{hu2013catedocs,
+  title={CateDocs: A New Visual Analytics Approach to Exploring High Dimensional Categorical Datasets},
+  abstract={CateDocs. Most existing multidimensional visualization techniques do not
+work well for high dimensional categorical datasets. The major
+challenges include preserving the discrete nature of the data and
+visually exploring the high dimensional space. In this poster, we
+propose a new visual analytics approach for high dimensional categorical data. Our methodology is to convert a categorical dataset
+into a document corpus and then apply advanced document analysis and visualization techniques to the corpus. Two prominent
+knowledge discovery tasks, namely cluster analysis and multivariate analysis, are supported. For cluster analysis, the Latent Dirichlet Allocation (LDA) topic model is employed to discover subspace
+clusters in a categorical dataset. The clusters are then visualized
+in a semantically rich visualization for interactive visual analysis.
+For multivariate analysis, LDA is used for dimension reduction and
+optimal rule mining is used to discover rules describing multivariate relationships in the reduced subspaces. The effectiveness of this
+approach has been illustrated by case studies on real datasets.},
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
+  author={Hu, Yueqi and Huang, Xiaoke and Zhang, Chong and Wu, Yingyu and Yang, Jing and Zhao, Ye and Barlowe, Scott and Chen, Wei},
+  year={2013},
+  organization={VAST},
+  series={VAST}
+}
+
+@article{bock2011moon,
+	author = {Tim Bock},
+    abstract = {Moon plot. Standard correspondence analysis plots are readily misinterpreted by research users. This paper presents a new plot, called the moon plot, which is less susceptible to misinterpretation. Row points are plotted in the traditional way. Column points are plotted equidistant from the origin, with their directions from the origin as in traditional correspondence analysis plots, and the information traditionally communicated by the distance of the points to the origin instead communicated by the size of the fonts of the labels. },
+	keywords = {contribution:technique, representation:projection, projection_representation, data_type:homogeneous, dimensionality:bivariate, cardinality:moderate, alignment:radial},
+	series = {Other Journal}
+	title ={Improving the Display of Correspondence Analysis Using Moon Plots},
+	journal = {International Journal of Market Research},
+	volume = {53},
+	number = {3},
+	pages = {307-326},
+	year = {2011},
+	doi = {10.2501/IJMR-53-3-307-326},
+	URL = {https://doi.org/10.2501/IJMR-53-3-307-326},
+}
+
+@book{bachi1968grp,
+  title={Graphical rational patterns: A new approach to graphical presentation of statistics},
+  author={Bachi, Roberto},
+  abstract={Graphical rational patterns (GRP), as cited in Fienberg, 1975. }
+  year={1968},
+  keywords={contribution:technique, contribution:textbook, representation:space-filling, dimensionality:bivariate, cardinality:low, alignment:linear}
+  publisher={Transaction Publishers},
+  series={Book}
+}
+
+@misc{wolf2021iconplot,
+  title={iconplot: Icon Plots for Visualization of Contingency Tables},
+  abstract = {Icon plots, part of the 'aplpack' package (cf. Gatherplots). ABSTRACT: An icon plot is a graphical representation of a contingency table. iconplot() computes a icon plot of a data matrix (matrix or data frame) or of an object of class table. Based on argument grp.xy the data set is split into groups. Similarly the graphics region is divided into panels. Then the elements of the groups are visualized within the associated panels.},
+  author={Wolf, Hans Peter},
+  journal={R package version},
+  keywords={contribution:technique, representation:glyph, data_type:heterogeneous, dimensionality:multivariate, cardinality:low, alignment:linear},
+  year={2021},
+  series={R package},
+  url = {https://rdrr.io/cran/aplpack/man/iconplot.html}
+}
+
+@inproceedings{rzeszotarski2014kinetica,
+  title={Kinetica: Naturalistic multi-touch data visualization},
+  author={Rzeszotarski, Jeffrey M and Kittur, Aniket},
+  abstract={Kinetica, cf. Granular Representation and Gatherplots. ABSTRACT: Over the last several years there has been an explosion of powerful, affordable, multi-touch devices. This provides an outstanding opportunity for novel data visualization techniques that leverage new interaction methods and minimize their barriers to entry. In this paper we describe an approach for multivariate data visualization that uses physics-based affordances that are easy to intuit, constraints that are easy to apply and visualize, and a consistent view as data is manipulated in order to promote data exploration and interrogation. We provide a framework for exploring this problem space, and an example proof of concept system called Kinetica. We describe the results of a user study that suggest users of Kinetica were able to explore multiple dimensions of data at once, identify outliers, and discover trends with minimal training.},
+  keywords={contribution:technique, representation:other, data_type:heterogeneous, dimensionality:multivariate, cardinality:moderate, alignment:metric_dependent}
+  booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  pages={897--906},
+  year={2014},
+  doi={https://doi.org/10.1145/2556288.2557231},
+  series={SIGCHI}
+}
+
+@article{choulakian1994cramer,
+  title={Cram{\'e}r-von Mises statistics for discrete distributions},
+  abstract={Z-plot for ordinal variables. See also Choulakian and Allard (1998) and Jafari et al. (2010). The application of Z-plots in a CA context was made by Beh and D’Ambra (2009) and Simonetti et al. (2011). ABSTRACT: Cramer-von Mises statistics are developed for use in testing for discrete distributions, and tables are given for tests for the discrete uniform distribution.},
+  keywords={contribution:technique, representation:projection, data_type:homogeneous, dimensionality:univariate?, cardinality:moderate?, projection_representation, alignment:linear},
+  series={Other Journal},
+  doi={https://doi.org/10.2307/3315828},
+  url={https://www.sfu.ca/~lockhart/Research/Papers/ChoulakianLockhartStephensCJS94.pdf},
+  author={Choulakian, Vartan and Lockhart, Richard A and Stephens, Michael A},
+  journal={The Canadian Journal of Statistics/La Revue Canadienne de Statistique},
+  pages={125--137},
+  year={1994},
+  publisher={JSTOR}
+}
+
+@inproceedings{feiner1990worlds,
+  title={Worlds within worlds: Metaphors for exploring n-dimensional virtual worlds},
+  abstract={Worlds Within Worlds. n-Vision is a testbed for exploring n-dimensional worlds
+containing functions of an arbitrary number of variables.
+Although our interaction devices and display hardware are
+inherently 3D, we demonstrate how they can be used to support
+interaction with these higher-dimensional objects. We introduce a
+new interaction metaphor developed for the system, which we call
+“worlds within worlds”: nested heterogeneous coordinate
+systems that allow the user to view and manipulate functions.
+Objects in our world may be explored with a set of tools. We
+describe an example n-Vision application in “financial
+visualization,” where the functions are models of financial
+instruments.},
+  series={SIGGRAPH},
+  url={https://dl.acm.org/doi/pdf/10.1145/97924.97933},
+  author={Feiner, Steven K and Beshers, Clifford},
+  booktitle={Proceedings of the 3rd annual ACM SIGGRAPH symposium on User interface software and technology},
+  pages={76--83},
+  year={1990},
+  keywords={contribution:technique, representation:other, data_type:homogeneous, dimensionality:multivariate?, cardinality:moderate?, alignment:3D},
+}
+
+@book{friendly2000visualizing,
+  title={Visualizing categorical data},
+  author={Friendly, Michael},
+  year={2000},
+  publisher={SAS Institute Cary, NC},
+  keywords={contribution:textbook, data_type:heterogeneous},
+  abstract={BLURB: This book offers many new and more easily accessible graphical methods for representing categorical data using SAS software. Graphical methods for quantitative data are well developed and widely used. However, until now with this comprehensive treatment, few graphical methods existed for categorical data. In this innovative book, Friendly presents many aspects of the relationships among variables, the adequacy of a fitted model, and possibly unusual features of the data that can best be seen and appreciated in an informative graphical display. Filled with programs and data sets, this book focuses on the use, understanding, and interpretation of results. Where necessary, the statistical theory with a well-written explanation is also provided. Readers will also appreciate the implementation of these methods in the general macros and programs that are described in the book.},
+  url={https://www.datavis.ca/books/vcd/},
+  series={Book}
+}
+
+@book{beh2014correspondence,
+  title={Correspondence analysis: Theory, paractice and new strategies},
+  author={Beh, Eric and Lombardo, Rosaria},
+  year={2014},
+  publisher={Wiley Online Library},
+  keywords={contribution:textbook, data_type:heterogeneous, projection_transformation, projection_representation},
+  abstract={BLURB: Correspondence Analysis: Theory, Practice and New Strategies examines the key issues of correspondence analysis, and discusses the new advances that have been made over the last 20 years. The main focus of this book is to provide a comprehensive discussion of some of the key technical and practical aspects of correspondence analysis, and to demonstrate how they may be put to use.  Particular attention is given to the history and mathematical links of the developments made. These links include not just those major contributions made by researchers in Europe (which is where much of the attention surrounding correspondence analysis has focused) but also the important contributions made by researchers in other parts of the world.},
+  doi={10.1002/9781118762875}
+  url={https://catalogimages.wiley.com/images/db/pdf/9781119953241.excerpt.pdf},
+  series={Book}
+}
+
+
+@inproceedings{may2010combining,
+  title={Combining Details of the Chi-Square Goodness-of-Fit Test with Multivariate Data Visualization},
+  author={May, Thorsten and Davey, James and Kohlhammer, J{\"o}rn},
+  booktitle={EuroVAST@ EuroVis},
+  year={2010},
+  series={EuroVis},
+  pages={45--50},
+  publisher={Eurographics},
+  doi={10.2312/PE/EuroVAST/EuroVAST10/045-050},
+  abstract={Karnaugh-Veitch Maps (KVMaps), see also May et al. (2007). ABSTRACT: In this work, we combine KVMaps, a visualization technique presented in [May07] for the visualization of
+statistical aggregations in multivariate contingency tables, with the measures used for the statistical Chi-Square
+goodness-of-fit test. Goodness-of-fit tests are used to check whether a given distribution of values matches an
+expected distribution. A single test statistic is calculated to represent the deviation of the complete dataset. By
+visualizing the deviations for all entries in the contingency table, it is possible to identify the patterns in the
+distribution of data items, which contribute most to the overall deviation of the dataset. We present two use cases
+to illustrate how the information about the patterns can be used.},
+  keywords={contribution:technique, representation:space-filling, alignment:linear, data_type:homogeneous, dimensionality:multivariate, cardinality:low?}
+}
+
+@inproceedings{chandola2009framework,
+  title={A framework for exploring categorical data},
+  author={Chandola, Varun and Boriah, Shyam and Kumar, Vipin},
+  booktitle={Proceedings of the 2009 SIAM International Conference on Data Mining},
+  pages={187--198},
+  year={2009},
+  organization={SIAM},
+  series={Other Conference},
+  abstract={In this paper, we present a framework for categorical
+data analysis which allows such data sets to be explored
+using a rich set of techniques that are only applicable
+to continuous data sets. We introduce the concept
+of separability statistics in the context of exploratory
+categorical data analysis. We show how these statistics
+can be used as a way to map categorical data to
+continuous space given a labeled reference data set.
+This mapping enables visualization of categorical data
+using techniques that are applicable to continuous data.
+We show that in the transformed continuous space,
+the performance of the standard k-nn based outlier
+detection technique is comparable to the performance
+of the k-nn based outlier detection technique using the
+best of the similarity measures designed for categorical
+data. The proposed framework can also be used to
+devise similarity measures best suited for a particular
+type of data set.},
+  doi={10.1137/1.9781611972795.17},
+  url={https://epubs.siam.org/doi/pdf/10.1137/1.9781611972795.17},
+  keywords={contribution:framework, data_type:homogeneous, projection_transformation, dimensionality:multivariate, cardinality:high, alignment:linear}
+}
+
+@techreport{FilippovaShneiderman2009,
+  author      = {Daria Filippova and Ben Shneiderman},
+  abstract = {CateRank. ABSTRACT: Analyzing multivariate datasets requires users to understand distributions of single variables and at least the two-way
+relationships between the variables. Lower-dimension projection techniques may assist users in finding interesting combinations.
+To explore the 2D relationships in a systematic way, we suggest ranking such relationships according to some measure of interestingness.
+This approach has been valuable for continuous data; however, metrics for categorical data are a novel contribution.
+We propose CateRank a tool for analyzing categorical datasets which visualizes one-dimensional relationships as histograms and
+uses re-orderable matrix for two-dimensional relationships. CateRank implements several metrics based on the histogram and matrix
+properties that enable users to discover relationships between the two categorical variables. User controls support data filtering to
+remove extreme or uninteresting values.},
+  title       = {Interactive Exploration of Multivariate Categorical Data: Exploiting Ranking Criteria to Reveal Patterns and Outliers},
+  institution = {Human-Computer Interaction Lab, University of Maryland},
+  year        = {2009},
+  number      = {HCIL-2009-38},
+  type        = {Technical Report},
+  series = {Technical Report},
+  url = {https://www.cs.umd.edu/hcil/caterank/},
+  keywords={contribution:technique, representation:table, alignment:linear, data_type:homogeneous, dimensionality:multivariate?, cardinality:moderate?}
+}
+
+@article{dennig2024categorical,
+  title={Toward the Categorical Data Map},
+  author={Dennig, Frederik L and Joos, Lucas and Paetzold, Patrick and Blumberg, Daniela and Deussen, Oliver and Keim, Daniel A and Fischer, Maximilian T},
+  journal={Preprint},
+  year={2024},
+  url={https://arxiv.org/pdf/2404.16044},
+  series={Other},
+  abstract={Categorical Data Map. ABSTRACT: Categorical data does not have an intrinsic definition
+of distance or order, and therefore, established visualization
+techniques for categorical data only allow for a set-based or
+frequency-based analysis, e.g., through Euler diagrams or Parallel
+Sets, and do not support a similarity-based analysis. We present a
+novel dimensionality reduction-based visualization for categorical
+data, which is based on defining the distance of two data items as
+the number of varying attributes. Our technique enables users to
+pre-attentively detect groups of similar data items and observe the
+properties of the projection, such as attributes strongly influencing
+the embedding. Our prototype visually encodes data properties in
+an enhanced scatterplot-like visualization, encoding attributes in
+the background to show the distribution of categories. In addition,
+we propose two graph-based measures to quantify the plot’s visual
+quality, which rank attributes according to their contribution to
+cluster cohesion. To demonstrate the capabilities of our similaritybased
+approach, we compare it to Euler diagrams and Parallel
+Sets regarding visual scalability and show its benefits through an
+expert study with five data scientists analyzing the Titanic and
+Mushroom datasets with up to 23 attributes and 8124 category
+combinations. Our results indicate that the Categorical Data Map
+offers an effective analysis method, especially for large datasets
+with a high number of category combinations.},
+  keywords={contribution:technique, projection_representation, space-filling, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
+}
+
+@article{zhang2014visual,
+  title={Visual correlation analysis of numerical and categorical data on the correlation map},
+  author={Zhang, Zhiyuan and McDonnell, Kevin T and Zadok, Erez and Mueller, Klaus},
+  journal={IEEE transactions on visualization and computer graphics},
+  volume={21},
+  number={2},
+  pages={289--303},
+  year={2014},
+  publisher={IEEE},
+  abstract={Correlation Map. ABSTRACT: Correlation analysis can reveal the complex relationships that often exist among the variables in multivariate data. However, as the number of variables grows, it can be difficult to gain a good understanding of the correlation landscape and important intricate relationships might be missed. We previously introduced a technique that arranged the variables into a 2D layout, encoding their pairwise correlations. We then used this layout as a network for the interactive ordering of axes in parallel coordinate displays. Our current work expresses the layout as a correlation map and employs it for visual correlation analysis. In contrast to matrix displays where correlations are indicated at intersections of rows and columns, our map conveys correlations by spatial proximity which is more direct and more focused on the variables in play. We make the following new contributions, some unique to our map: (1) we devise mechanisms that handle both categorical and numerical variables within a unified framework, (2) we achieve scalability for large numbers of variables via a multi-scale semantic zooming approach, (3) we provide interactive techniques for exploring the impact of value bracketing on correlations, and (4) we visualize data relations within the sub-spaces spanned by correlated variables by projecting the data into a corresponding tessellation of the map.}
+  series={TVCG},
+  doi={10.1109/TVCG.2014.2350494},
+  keywords={contribution:technique}
+}
+
+@article{weaver2009conjunctive,
+  title={Conjunctive visual forms},
+  author={Weaver, Chris},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  volume={15},
+  number={6},
+  pages={929--936},
+  year={2009},
+  publisher={IEEE},
+  series={TVCG},
+  abstract={Conjunctive Visual Forms (CVF). ABSTRACT: Visual exploration of multidimensional data is a process of isolating and extracting relationships within and between dimensions. Coordinated multiple view approaches are particularly effective for visual exploration because they support precise expression of heterogeneous multidimensional queries using simple interactions. Recent visual analytics research has made significant progress in identifying and understanding patterns of composed views and coordinations that support fast, flexible, and open-ended data exploration. What is missing is formalization of the space of expressible queries in terms of visual representation and interaction. This paper introduces the conjunctive visual form model in which visual exploration consists of interactively-driven sequences of transitions between visual states that correspond to conjunctive normal forms in boolean logic. The model predicts several new and useful ways to extend the space of rapidly expressible queries through addition of simple interactive capabilities to existing compositional patterns. Two recent related visual tools offer a subset of these capabilities, providing a basis for conjecturing about such extensions.},
+  keywords={contribution:technique},
+  doi={10.1109/TVCG.2009.129}
+}
+
+@article{johansson2010visual,
+  title={Visual analysis of mixed data sets using interactive quantification},
+  author={Johansson, Sara and Johansson, Jimmy},
+  journal={ACM SIGKDD Explorations Newsletter},
+  volume={11},
+  number={2},
+  pages={29--38},
+  year={2010},
+  publisher={ACM New York, NY, USA},
+  abstract={MiDAVisT (Mixed Data Analysis Visualization Tool), see also other papers by the same authors.},
+  series={SIGKDD},
+  keywords={contribution:technique, representation:projection},
+  doi={10.1145/1809400.1809406}
+}
+
+@article{takagishi2022classspecific,
+author = {Mariko Takagishi and Michel van de Velden},
+title = {Visualizing Class Specific Heterogeneous Tendencies in Categorical Data},
+journal = {Journal of Computational and Graphical Statistics},
+volume = {31},
+number = {3},
+pages = {790--801},
+year = {2022},
+publisher = {Taylor \& Francis},
+doi = {10.1080/10618600.2022.2035737},
+URL = {https://doi.org/10.1080/10618600.2022.2035737},
+series={Journal of Computational and Graphical Statistics},
+keywords={contribution:technique}
+}
+
+
+@article{greenacre2013contribution,
+  title={Contribution biplots},
+  author={Greenacre, Michael},
+  journal={Journal of Computational and Graphical Statistics},
+  volume={22},
+  number={1},
+  pages={107--122},
+  year={2013},
+  publisher={Taylor \& Francis},
+  series={Journal of Computational and Graphical Statistics},
+  doi={10.1080/10618600.2012.702494},
+  url={https://www.jstor.org/stable/43304818},
+  keywords={contribution:technique},
+  abstract={Contribution biplot. ABSTRACT: To interpret the biplot, it is necessary to know which points—usually variables—are the ones that are important contributors to the solution, especially when there are many variables involved. This information can be calculated separately as part of the biplot's numerical results, but this means that a table has to be consulted along with the graphical display. We propose a new scaling of the display, called the contribution biplot, which incorporates this diagnostic information directly into the display itself, showing visually the important contributors and thus facilitating the biplot interpretation and often simplifying the graphical representation considerably. The contribution biplot can be applied to a wide variety of analyses, such as correspondence analysis, principal component analysis, log-ratio analysis, and various forms of discriminant analysis, and, in fact, to any method based on dimension reduction through the singular value decomposition. In the contribution biplot, one set of points, usually the rows of a data matrix, optimally represents the spatial positions of the cases or sample units, according to an appropriate distance measure. The other set of points, usually the columns of the data matrix, is represented by vectors that are related to their contributions to the low-dimensional solution. A fringe benefit is that often only one common scale for the row and column points is needed on the principal axes, thus avoiding the problem of enlarging or contracting the scale of one set of points to make the biplot legible. Furthermore, the contribution biplot also solves the problem in correspondence analysis and log-ratio analysis of low-frequency categories that are located on the periphery of the map, giving the false impression that they are important, when they are in fact contributing minimally to the solution. This article has supplementary materials online.}
+}
+
+@article{friendly2002corrgrams,
+  title={Corrgrams: Exploratory displays for correlation matrices},
+  author={Friendly, Michael},
+  journal={The american statistician},
+  volume={56},
+  number={4},
+  pages={316--324},
+  year={2002},
+  publisher={Taylor \& Francis},
+  abstract={Corrgrams. Although described for continuous data, one can use the same principle to show pairwise categorical associations/similarity measures. ABSTRACT: Correlation and covariance matrices provide the basis for all classical multivariate techniques. Many statistical tools exist for analyzing their structure but, surprisingly, there are few techniques for exploratory visual display, and for depicting the patterns of relations among variables in such matrices directly, particularly when the number of variables is moderately large. This article describes a set of techniques we subsume under the name “corrgram,” based on two main schemes: (a) Rendering the value of a correlation to depict its sign and magnitude. We consider some of the properties of several iconic representations, in relation to the kind of task to be performed. (b) Reordering the variables in a correlation matrix so that "similar" variables are positioned adjacently, facilitating perception. In addition, the extension of this visualization to matrices for conditional independence and partial independence is described and illustrated, and we provide an easily used SAS implementation of these methods.},
+  doi={10.1198/000313002533},
+  series={The American Statistician},
+  keywords={contribution:technique}
+}
+
+@article{hahsler2008getting,
+  title={Getting things in order: an introduction to the R package seriation},
+  author={Hahsler, Michael and Hornik, Kurt and Buchta, Christian},
+  journal={Journal of Statistical Software},
+  volume={25},
+  pages={1--34},
+  year={2008}.
+  abstract={Seriation package, which is useful for ordering categorical techniques by CA, as described by Friendly. ABSTRACT: Seriation, i.e., finding a suitable linear order for a set of objects given data and a loss or merit function, is a basic problem in data analysis. Caused by the problem's combinatorial nature, it is hard to solve for all but very small sets. Nevertheless, both exact solution methods and heuristics are available. In this paper we present the package seriation which provides an infrastructure for seriation with R. The infrastructure comprises data structures to represent linear orders as permutation vectors, a wide array of seriation methods using a consistent interface, a method to calculate the value of various loss and merit functions, and several visualization techniques which build on seriation. To illustrate how easily the package can be applied for a variety of applications, a comprehensive collection of examples is presented.},
+  series={Journal of Statistical Software},
+  doi={10.18637/jss.v025.i03},
+  url={https://www.jstatsoft.org/article/view/v025i03},
+  keywords={contribution:ordering_algorithm}
+}
+
+@article{friendly2003effect,
+  title={Effect ordering for data displays},
+  author={Friendly, Michael and Kwan, Ernest},
+  journal={Computational Statistics & Data Analysis},
+  volume={43},
+  number={4},
+  pages={509--539},
+  year={2003},
+  publisher={Elsevier},
+  keywords={contribution:ordering_algorithm},
+  doi = {https://doi.org/10.1016/S0167-9473(02)00290-6},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167947302002906},
+  series={Computational Statistics & Data Analysis},
+  abstract={ABSTRACT: This paper outlines a general framework for ordering information in visual displays (tables and graphs) according to the effects or trends which we desire to see. This idea, termed effect-ordered data displays, applies principally to the arrangement of unordered factors for quantitative data and frequency data, and to the arrangement of variables and observations in multivariate displays (star plots, parallel coordinate plots, and so forth).
+
+As examples of this principle, we present several techniques for ordering items, levels or variables “optimally”, based on some desired criterion. All of these may be based on eigenvalue or singular-value decompositions.
+
+Along the way, we tell some stories about data display, illustrated by graphs—some surprisingly bad, and some surprisingly good—for showing patterns, trends, and anomalies in data. We hope to raise more questions than we can provide answers for.}
+}
+
+@article{schonlau2024parsetscomparison,
+author = {Matthias Schonlau},
+title = {Hammock Plots: Visualizing Categorical and Numerical Variables},
+journal = {Journal of Computational and Graphical Statistics},
+volume = {0},
+number = {0},
+pages = {1--16},
+year = {2024},
+publisher = {Taylor \& Francis},
+doi = {10.1080/10618600.2024.2322561},
+URL = { 
+    
+        https://doi.org/10.1080/10618600.2024.2322561
+},
+series={Journal of Computational and Graphical Statistics},
+keywords={contribution:evaluation},
+abstract={Provides a useful summary of techniques in the ParSets family. ABSTRACT: I discuss the hammock plot for visualizing categorical or mixed categorical/numeric data. Hammock plots can be viewed as a generalization of parallel coordinate plots where the lines are replaced by boxes (or plotting elements) and the width of the boxes is proportional to the number of observations they represent. The article also introduces a modification to the hammock plot to avoid what Hoffman et al. termed the reverse line width illusion. Further, I give an historical overview over hammock-type plots such as common angle, GPCP, parsets, and alluvial plots and discuss the type of boxes used to connect adjacent variables. Supplementary materials for this article are available online.}
+}
+
+@article{zhang2019association,
+  title={An association rule based approach to reducing visual clutter in parallel sets},
+  author={Zhang, Chong and Chen, Yang and Yang, Jing and Yin, Zhengcong},
+  journal={Visual Informatics},
+  volume={3},
+  number={1},
+  pages={48--57},
+  year={2019},
+  publisher={Elsevier},
+doi={10.1016/j.visinf.2019.03.006},
+series={Visual Informatics},
+abstract={Association Rule Table (ARTable). ABSTRACT:},
+keywords={contribution:technique}
+}
+
+@article{pilhofer2012comparing,
+  title={Comparing clusterings using Bertin's idea},
+  author={Pilh{\"o}fer, Alexander and Gribov, Alexander and Unwin, Antony},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  volume={18},
+  number={12},
+  pages={2506--2515},
+  year={2012},
+  publisher={IEEE},
+  series={TVCG},
+  doi={10.1109/TVCG.2012.207},
+  abstract={ABSTRACT: Classifying a set of objects into clusters can be done in numerous ways, producing different results. They can be visually compared using contingency tables [27], mosaicplots [13], fluctuation diagrams [15], tableplots [20] , (modified) parallel coordinates plots [28], Parallel Sets plots [18] or circos diagrams [19]. Unfortunately the interpretability of all these graphical displays decreases rapidly with the numbers of categories and clusterings. In his famous book A Semiology of Graphics [5] Bertin writes “the discovery of an ordered concept appears as the ultimate point in logical simplification since it permits reducing to a single instant the assimilation of series which previously required many instants of study”. Or in more everyday language, if you use good orderings you can see results immediately that with other orderings might take a lot of effort. This is also related to the idea of effect ordering [12], that data should be organised to reflect the effect you want to observe. This paper presents an efficient algorithm based on Bertin's idea and concepts related to Kendall's t [17], which finds informative joint orders for two or more nominal classification variables. We also show how these orderings improve the various displays and how groups of corresponding categories can be detected using a top-down partitioning algorithm. Different clusterings based on data on the environmental performance of cars sold in Germany are used for illustration. All presented methods are available in the R package extracat which is used to compute the optimized orderings for the example dataset.},
+  keywords={contribution:ordering_algorithm}
+}
+
+@article{valero2003vista,
+title = {Visualizing categorical data in ViSta},
+journal = {Computational Statistics & Data Analysis},
+volume = {43},
+number = {4},
+pages = {495-508},
+year = {2003},
+note = {Data Visualization},
+issn = {0167-9473},
+doi = {https://doi.org/10.1016/S0167-9473(02)00289-X},
+url = {https://www.sciencedirect.com/science/article/pii/S016794730200289X},
+author = {Pedro M. Valero-Mora and Forrest W. Young and Michael Friendly},
+keywords = {contribution:technique},
+abstract = {Several relevant Spreadplots, which use multiple coordinated views. ABSTRACT: The modules in the statistical package ViSta related to categorical data analysis are presented. These modules are: visualization of frequency data with mosaic and bar plots, correspondence analysis, multiple correspondence analysis and loglinear analysis. All these methods are implemented in ViSta with a big emphasis on plots and graphical representations of data, as well as interactivity for the user with the system. These provide a system that has shown to be easy, useful, and powerful, both for novice and experienced users.},
+series={Computational Statistics & Data Analysis}
+}
+
+@article{pilhofer2013extracat,
+  title={New approaches in visualization of categorical data: R package extracat},
+  author={Pilh{\"o}fer, Alexander and Unwin, Antony},
+  journal={Journal of Statistical Software},
+  volume={53},
+  pages={1--25},
+  year={2013},
+  doi={10.18637/jss.v053.i07},
+  url={https://www.jstatsoft.org/article/view/v053i07},
+  series={Journal of Statistical Software},
+  keywords={contribution:technique},
+  abstract={Relative multiple barcharts (RMB) and categorical parallel coordinates plot (CPCP). ABSTRACT: The R package extracat provides two new graphical methods for displaying categorical data extending the concepts of multiple barcharts and parallel coordinates plots. The first method called rmb plot uses a crossover of mosaicplots and multiple barcharts to display the frequencies of a data table split up into conditional relative frequencies of one target variable and the absolute frequencies of the corresponding combinations of the remaining explanatory variables. It provides a well-structured representation of the data which is easy to interpret and allows precise comparisons. The graphic can additionally be used as a generalization of spineplots or with barcharts for the conditional relative frequencies. Several options, including ceiling censored zooming, residual shadings and a choice of color palettes, are provided. An interactive version based on the R package iWidgets is also presented. The second graphic cpcp uses the interactive parallel coordinates plots in the iplots package to visualize categorical data. Sequences of points are used to represent each of the variable categories, while ordering algorithms are applied to represent a hierarchical structure in the data and keep the arrangement clear. This interactive graphic is well-suited for exploratory analysis and allows a visual interpretation even for a higher number of variables and a mixture of categorical and numeric scales.},
+}
+
+@inproceedings{paetzold2023recteuler,
+  title={RectEuler: Visualizing Intersecting Sets using Rectangles},
+  author={Paetzold, Patrick and Kehlbeck, Rebecca and Strobelt, Hendrik and Xue, Yumeng and Storandt, Sabine and Deussen, Oliver},
+  booktitle={Computer Graphics Forum},
+  volume={42},
+  number={3},
+  pages={87--98},
+  year={2023},
+  organization={Wiley Online Library},
+  series={Computer Graphics Forum},
+  doi={10.1111/cgf.14814},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.14814},
+  keywords={contribution:technique}
+  abstract={RectEulter (cf. other techniques for representing Euler diagrams and Venn diagrams; set-based methods can be applied to categorical data by making each set a different category, and having the elements represent combinations of categories). ABSTRACT: Euler diagrams are a popular technique to visualize set-typed data. However, creating diagrams using simple shapes remains a challenging problem for many complex, real-life datasets. To solve this, we propose RectEuler: a flexible, fully-automatic method using rectangles to create Euler-like diagrams. We use an efficient mixed-integer optimization scheme to place set labels and element representatives (e.g., text or images) in conjunction with rectangles describing the sets. By defining appropriate constraints, we adhere to well-formedness properties and aesthetic considerations. If a dataset cannot be created within a reasonable time or at all, we iteratively split the diagram into multiple components until a drawable solution is found. Redundant encoding of the set membership using dots and set lines improves the readability of the diagram. Our web tool lets users see how the layout changes throughout the optimization process and provides interactive explanations. For evaluation, we perform quantitative and qualitative analysis across different datasets and compare our method to state-of-the-art Euler diagram generation methods.}
+}
+
