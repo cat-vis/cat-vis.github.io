@@ -1,122 +1,101 @@
 const userDefinedAuthorizedTags = {
 	"contribution:technique": {
-		"description": "the paper introduces a specific technique or system for visualising categorical data"
+		"description": "The paper introduces a specific technique or system for visualising categorical data."
 	},
 	"contribution:evaluation": {
-		"description": "the paper provides an empirical, algorithmic or theoretical evaluation of visualisation approaches for categorical data"
-	},
-	"contribution:framework": {
-		"description": "the paper contributes a framework or paradigm for thinking about categorical visualisation"
-	},
-	"contribution:survey": {
-		"description": "the paper synthesises numerous techniques for visualising categorical data"
-	},
-	"contribution:tool": {
-		"description": "the paper describes software that instantiates one or more categorical visualisation techniques"
-	},
-	"contribution:application": {
-		"description": "the paper applies categorical data to a specific application"
-	},
-	"contribution:textbook": {
-		"description": "a textbook or monograph on the topic of visualising categorical data"
+		"description": "The paper provides an empirical, algorithmic or theoretical evaluation of visualisation approaches for categorical data."
 	},
 	"contribution:ordering_algorithm": {
-		"description": "the paper contributes an algorithm for rearranging categorical data"
+		"description": "The paper contributes an algorithm for rearranging categorical data."
 	},
-	"representation:size-encoding": {
-		"description": "the technique uses length (e.g. bars or arcs) to convey information"
+	"contribution:framework": {
+		"description": "The paper contributes a framework or paradigm for visualising categorical data."
 	},
-	"representation:space-filling": {
-		"description": "The technique may impose a hierarchy on the variables displayed and uses area to represent frequency"
+	"contribution:survey": {
+		"description": "The paper presents a survey of categorical data visualisation or a related field."
 	},
-	"representation:glyph": {
-		"description": "the technique uses icons to represent individual or grouped items in the dataset"
+	"contribution:textbook": {
+		"description": "A textbook on the topic of categorical data visualisation."
 	},
-	"representation:table": {
-		"description": "the technique represents data in a 2D table or matrix; the cells use visual encodings to enhance readability."
+	"family:size-encoding": {
+		"description": "The technique uses bars (line marks) with the length channel, or wedges (area marks) with the angle or length channels."
 	},
-	"representation:projection": {
-		"description": "the technique converts categories into numerical values before visualising them (aka ‘QuantViz’ or ‘intermediate representations’)"
+	"family:space-filling": {
+		"description": "The technique fills the available space and likely imposes a hierarchy of variables."
 	},
-	"representation:other": {
-		"description": "the technique does not clearly belong to any of the other categories"
+	"family:glyph": {
+		"description": "The technique uses glyphs or icons to represent individual items or aggregates in the dataset."
 	},
-	"representation:not_applicable": {
-		"description": "the paper does not describe a technique"
+	"family:table": {
+		"description": "The technique represents data in a 2D table or matrix, where each cell contains visual encodings."
+	},
+	"family:projection": {
+		"description": "The technique converts categories into numerical values before representing these visually (in line with the QuantViz approach)."
+	},
+	"family:other": {
+		"description": "The technique represents frequencies (unlike projection techniques) but does not clearly belong to any of the other categories."
+	},
+	"family:not_applicable": {
+		"description": "The paper does not describe a technique."
 	},
 	"data_type:homogeneous": {
-		"description": "the technique supports purely categorical data"
+		"description": "The technique only supports categorical (not quantitative) data."
 	},
 	"data_type:heterogeneous": {
-		"description": "the technique supports a mixture of categorical and continuous variables"
+		"description": "The technique supports a mixture of categorical and quantitative data."
 	},
 	"data_type:not_applicable": {
-		"description": "Not applicable"
+		"description": "Not applicable."
 	},
 	"dimensionality:univariate": {
-		"description": "the technique, as shown or described, supports only one categorical variable"
+		"description": "The technique supports only one categorical variable."
 	},
 	"dimensionality:bivariate": {
-		"description": "the technique, as shown or described, supports up to two categorical variables"
+		"description": "The technique supports up to (or exactly) two categorical variables."
 	},
 	"dimensionality:trivariate": {
-		"description": "the technique, as shown or described, supports up to three categorical variables"
+		"description": "The technique supports up to (or exactly) three categorical variables."
 	},
 	"dimensionality:multivariate": {
-		"description": "the technique, as shown or described, can support more than three categorical variables"
+		"description": "The technique can support more than three categorical variables."
 	},
 	"dimensionality:not_applicable": {
-		"description": "the paper does not describe a technique"
-	},
-	"cardinality:low": {
-		"description": "the technique supports variables with roughly 2-5 categories"
-	},
-	"cardinality:moderate": {
-		"description": "the technique can handle at least one variable with 6-10 categories"
+		"description": "The paper does not describe a technique."
 	},
 	"cardinality:very_low": {
-		"description": "the technique requires at least one binary variable; that is, a variable with only two categories"
+		"description": "The technique requires at least one binary variable; that is, a variable with only two categories."
+	},
+	"cardinality:low": {
+		"description": "The technique supports variables with roughly (only) 2-5 categories."
+	},
+	"cardinality:moderate": {
+		"description": "The technique can handle at least one variable with 6-10 categories."
 	},
 	"cardinality:high": {
-		"description": "the technique is designed to support at least one variable with 10-100 categories"
+		"description": "The technique is designed to support at least one variable with 10-99 categories."
 	},
 	"cardinality:very_high": {
-		"description": "the technique is designed to support at least one variable with 100+ categories"
+		"description": "The technique is designed to support at least one variable with 100+ categories."
 	},
 	"cardinality:not_applicable": {
-		"description": "the paper does not describe a technique"
-	},
-	"paper_type:full_paper": {
-		"description": "a journal article, book chapter or full-length conference paper"
-	},
-	"paper_type:short_paper": {
-		"description": "a short paper"
-	},
-	"paper_type:poster": {
-		"description": "a poster submission"
-	},
-	"paper_type:other": {
-		"description": "another type of publication, such as a book or technical report"
+		"description": "The paper does not describe a technique."
 	},
 	"alignment:linear": {
-		"description": "the technique is laid out in linear or parallel fashion"
+		"description": "The technique arranges data along perpendicular or parallel axes."
 	},
 	"alignment:radial": {
-		"description": "the technique is laid out in circular or elliptical form; it uses the polar coordinate system rather than Cartesian coordinates"
-	},
-	"alignment:metric_dependent": {
-		"description": "the layout of the technique is driven by metrics"
+		"description": "The technique is laid out in elliptical form and likely uses polar coordinates."
 	},
 	"alignment:other": {
-		"description": "the layout does not fit into any other categories"
+		"description": "The technique does not use a linear or radial layout (e.g., force-directed)."
 	},
 	"alignment:not_applicable": {
-		"description": "the paper does not describe a technique"
+		"description": "The paper does not describe a technique."
 	},
 	"projection_transformation": {
-		"description": "The projection technique proposes an algorithm for converting categories into numbers"
+		"description": "The projection technique proposes an algorithm for converting categories into numbers."
 	},
 	"projection_representation": {
-		"description": "The projection technique proposes a new visualisation technique for representing the numerical values"
+		"description": "The projection technique proposes a new visualisation technique for representing numerical values derived from categories."
 	}
 }
