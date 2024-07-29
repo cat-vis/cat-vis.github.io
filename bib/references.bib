@@ -332,7 +332,7 @@ DOI = {10.2312/evs.20231049},
 abstract = {CatNetVis. ABSTRACT: We introduce CatNetVis, a novel method of representing semantical relations in categorical high-dimensional data. Traditional methods provide insights into many aspects of visual exploration of data. However, most of them lack information on relations in between categories or even clusters of categories. The force-directed network layout utilized by CatNetVis enables a lightweight approach in order to explore such semantical relations. The connections within the network are perceived as an intuitive metaphor for clusters of connections/relations in categorical data denoted as communities. While the user interacts, visual encodings such as information about the entropy and frequencies allow a fast perception of relation between categories and its frequencies, respectively. We illustrate how CatNetVis performs as an effective addition to traditional methods by demonstrating the method on an example data sets and comparing it to conventional methods.},
 url = {https://www.researchgate.net/profile/Michael-Thane/publication/371667091_CatNetVis_Semantic_Visual_Exploration_of_Categorical_High-Dimensional_Data_with_Force-Directed_Graph_Layouts/links/649d9170b9ed6874a5e6f92e/CatNetVis-Semantic-Visual-Exploration-of-Categorical-High-Dimensional-Data-with-Force-Directed-Graph-Layouts.pdf},
 series = {EuroVis},
-keywords = {contribution:technique, family:other, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, projection_representation, network, alignment:other}
+keywords = {contribution:technique, family:other, data_type:heterogeneous, dimensionality:multivariate, cardinality:high, network, alignment:other}
 }
 
 @article{hofmann2001doubledecker,
@@ -1054,7 +1054,7 @@ keywords={contribution:technique, family:other, data_type:homogeneous, dimension
   doi={10.2312/PE/EuroVAST/EuroVA11/053-056},
   url={http://dx.doi.org/10.2312/PE/EuroVAST/EuroVA11/053-056},
   abstract={Contingency Wheel (see also ContingencyWheel++). ABSTRACT: We present the Contingency Wheel, a visual method for finding and analyzing associations in a large n<m contingency table with m < 100 and n being two to three orders of magnitude larger than m. The method is demonstrated on a large table from the Book-Crossing dataset, which counts the number of ratings each book received from each country. It enables finding books that received a disproportionately high number of ratings from a specific country. It further allows to visually analyze what these books have in common, and with which countries they are also highly associated. Pairs of similar countries can further be identified (in the sense that many books are associated with both countries). Compared with existing visual methods, our approach enables analyzing and gaining insight into larger tables.},
-  keywords={contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:bivariate, cardinality:very_high}
+  keywords={contribution:technique, alignment:radial, data_type:homogeneous, dimensionality:trivariate, cardinality:very_high, family:other}
 }
 
 @article{hothorn2006unbiased,
@@ -1905,7 +1905,7 @@ instruments.},
   author={Beh, Eric and Lombardo, Rosaria},
   year={2014},
   publisher={Wiley Online Library},
-  keywords={contribution:textbook, data_type:heterogeneous, projection_transformation, projection_representation},
+  keywords={contribution:textbook, family:projection, data_type:heterogeneous, projection_transformation, projection_representation},
   abstract={BLURB: Correspondence Analysis: Theory, Practice and New Strategies examines the key issues of correspondence analysis, and discusses the new advances that have been made over the last 20 years. The main focus of this book is to provide a comprehensive discussion of some of the key technical and practical aspects of correspondence analysis, and to demonstrate how they may be put to use.  Particular attention is given to the history and mathematical links of the developments made. These links include not just those major contributions made by researchers in Europe (which is where much of the attention surrounding correspondence analysis has focused) but also the important contributions made by researchers in other parts of the world.},
   doi={10.1002/9781118762875}
   url={https://catalogimages.wiley.com/images/db/pdf/9781119953241.excerpt.pdf},
@@ -2339,4 +2339,48 @@ association plots offer good support for visualization. Especially mosaic and
 sieve plots have been extended over the last two decades, and implementations
 exist in many statistical environments.},
 keywords={contribution:technique, family:size-encoding, data_type:homogeneous, dimensionality:trivariate, cardinality:moderate, alignment:linear, 3D}
+}
+
+@unpublished{trye2024multicat,
+  author       = {Trye, David and Apperley, Mark and Bainbridge, David},
+  title        = {MultiCat: A Visualisation Technique for Multidimensional Categorical Data},
+  note         = {Unpublished manuscript},
+  institution  = {University of Waikato},
+  year         = {2024},
+  url          = {https://dgt12.github.io/files/multicat.pdf}
+  abstract = {MultiCat. ABSTRACT: Exploring relationships among several variables is an important analysis task
+when dealing with multidimensional categorical data. A key challenge in visualising such data lies in ensuring that each variable and its categories can
+be clearly distinguished, especially when these grow in number and complexity. This paper presents MultiCat, an interactive visualisation technique for
+analysing categorical datasets comprising roughly 3–20 variables. MultiCat
+uses a familiar, spreadsheet-like layout to represent both nominal and ordinal
+variables in frequency form. It incorporates several interactive features, including column-wise sorting, dynamic queries and filtering, and allows rapid
+calculation of a priori and conditional probabilities. MultiCat offers several
+advantages over existing techniques, including: (1) enhanced clarity in extracting high-dimensional relationships and comparing their frequencies; (2) a
+non-hierarchical default layout that promotes user-driven analysis; and (3)
+a structured visual overview of the relative contribution of each category.
+We validate MultiCat by reporting on the promising results and outcomes
+of a small-scale usability study. A prototype of MultiCat is available at
+https://dgt12.github.io/multicat/.},
+  series = {Other},
+  keywords = {contribution:technique, family:table, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
+}
+
+@inproceedings{trye2023hme,
+  author       = {Trye, David and Apperley, Mark and Bainbridge, David},
+  title        = {Extending the Heatmap Matrix: Pairwise Analysis of Multivariate Categorical Data},
+  booktitle    = {2023 27th International Conference Information Visualisation (IV)},
+  pages        = {29--36},
+  year         = {2023},
+  address      = {Tampere, Finland},
+  publisher    = {IEEE},
+  doi          = {10.1109/IV60283.2023.00016},
+  url          = {https://dgt12.github.io/files/hm.pdf},
+  abstract = {The Heatmap Matrix Explorer, which introduces extensions to Rocha and da Silva's (2018, 2022) Heatmap Matrix. ABSTRACT: Analysts are often interested in understanding the
+association between variables within a dataset. This paper describes a set of techniques for augmenting the Heatmap Matrix, which represents pairwise intersections of categorical variables. The proposed extensions include adapting the design and layout of the matrix to enhance its readability, expanding the number
+of metrics that can be presented, displaying matching records in
+a coordinated table view, and embedding the Chi-square test of
+independence. These features are demonstrated on two datasets
+using the empirical prototype that has been developed.},
+  series = {IV},
+  keywords = {contribution:technique, family:table, data_type:homogeneous, dimensionality:multivariate, cardinality:high, alignment:linear}
 }
